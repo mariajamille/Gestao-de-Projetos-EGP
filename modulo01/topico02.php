@@ -338,69 +338,83 @@ include('layout/header.php');
                         <br>
                         <p class="scrool">As três principais disciplinas são:</p>
                         <br>
+
+
                         <!-- Accordion Fase 01 - Begin  -->
-                        <div class="accordion accordion-flush" id="AccordionFase01">
-                            <!-- Sub Título -->
-                            <center>
-                                <p class="badge badge-warning fs-6">Clique nos títulos abaixo para mais informações</p>
-                            </center>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item01">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                        aria-controls="flush-collapseOne">
-                                        <strong>Gerenciamento de Portfólio</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="Item01"
-                                    data-bs-parent="#AccordionFase01">
-                                    <div class="accordion-body">
-                                        <p>É o processo sistemático pelo qual a organização avalia as oportunidades
-                                            existentes, transformando-as em projetos através da avaliação de seu
-                                            alinhamento à estratégia da empresa, valor que gera para a organização. O
-                                            gerenciamento de portfólio reforça apoio executivo e é responsável por fazer
-                                            a avaliação, em longo prazo, do atendimento de objetivos de negócio pelos
-                                            projetos e programas.</p>
+                        <div class="container">
+                            <div class="accordion accordion-flush" id="AccordionFase01">
+
+                                <!-- Sub Título -->
+                                <center>
+                                    <p class="badge badge-warning fs-6">Clique nos títulos abaixo para mais informações
+                                    </p>
+                                </center>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item01">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            <strong>Gerenciamento de Portfólio</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="Item01" data-bs-parent="#AccordionFase01">
+                                        <div class="accordion-body">
+                                            <p>É o processo sistemático pelo qual a organização avalia as oportunidades
+                                                existentes, transformando-as em projetos através da avaliação de seu
+                                                alinhamento à estratégia da empresa, valor que gera para a organização.
+                                                O
+                                                gerenciamento de portfólio reforça apoio executivo e é responsável por
+                                                fazer
+                                                a avaliação, em longo prazo, do atendimento de objetivos de negócio
+                                                pelos
+                                                projetos e programas.</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item02">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
-                                        aria-controls="flush-collapseTwo">
-                                        <strong>Gerenciamento de Programas</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="Item02"
-                                    data-bs-parent="#AccordionFase01">
-                                    <div class="accordion-body">
-                                        <p>Programas são conjuntos de projetos e iniciativas que têm objetivos comuns e
-                                            que precisam ser coordenados entre si. O gerenciamento de programas cuida do
-                                            compartilhamento de recursos e do repositório intelectual entre os projetos,
-                                            bem como do gerenciamento dos principais riscos.
-                                        </p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item02">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            <strong>Gerenciamento de Programas</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        aria-labelledby="Item02" data-bs-parent="#AccordionFase01">
+                                        <div class="accordion-body">
+                                            <p>Programas são conjuntos de projetos e iniciativas que têm objetivos
+                                                comuns e
+                                                que precisam ser coordenados entre si. O gerenciamento de programas
+                                                cuida do
+                                                compartilhamento de recursos e do repositório intelectual entre os
+                                                projetos,
+                                                bem como do gerenciamento dos principais riscos.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item03">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
-                                        aria-controls="flush-collapseThree">
-                                        <strong>Gerenciamento de Projetos </strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="Item03" data-bs-parent="#AccordionFase01">
-                                    <div class="accordion-body">
-                                        <p>É uma disciplina clássica coberta pelos processos do PMBOK (<em>Project
-                                                Management Body of Knowledge</em>), que tem como objetivo principal
-                                            viabilizar a entrega de projetos individuais que atendam às especificações
-                                            de prazo, escopo, custo e qualidade.
-                                        </p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item03">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            <strong>Gerenciamento de Projetos </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        aria-labelledby="Item03" data-bs-parent="#AccordionFase01">
+                                        <div class="accordion-body">
+                                            <p>É uma disciplina clássica coberta pelos processos do PMBOK (<em>Project
+                                                    Management Body of Knowledge</em>), que tem como objetivo principal
+                                                viabilizar a entrega de projetos individuais que atendam às
+                                                especificações
+                                                de prazo, escopo, custo e qualidade.
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -630,236 +644,273 @@ include('layout/header.php');
                         <br>
 
                         <!-- Accordion Fase 02 - Begin  -->
-                        <div class="accordion accordion-flush scrool" id="AccordionFase02">
-                            <!-- Sub Título -->
-                            <center>
-                                <p class="badge badge-warning fs-6">Clique nos títulos abaixo para mais informações</p>
-                            </center>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item04">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseFour" aria-expanded="false"
-                                        aria-controls="flush-collapseFour">
-                                        <strong>Ciclo Conceitual</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFour" class="accordion-collapse collapse"
-                                    aria-labelledby="Item04" data-bs-parent="#AccordionFase02">
-                                    <div class="accordion-body">
-                                        <p>Esse ciclo corresponde à fase inicial de conceituação do projeto, na qual são
-                                            idealizadas as mais diversas possibilidades de solução ou de respostas,
-                                            incluindo os recursos a serem utilizados.</p>
-                                        <p>É o momento que marca o início de um projeto de investimento e pode começar
-                                            com uma ideia percebida como adequada para atender uma demanda da
-                                            organização. Deve ser o ciclo de maior liberdade e deveria proporcionar um
-                                            diagnóstico preliminar, para que o projeto possa ser estruturado. Ao seu
-                                            final, deve proporcionar uma ideia estruturada da oportunidade do projeto,
-                                            discutindo-a razoavelmente, definindo a missão do projeto e as restrições
-                                            conceituais que o projeto poderá enfrentar.</p>
-                                        <p><strong>Aspectos que merecem atenção nesse ciclo:</strong></p>
+                        <div class="container">
+                            <div class="accordion accordion-flush scrool" id="AccordionFase02">
+                                <!-- Sub Título -->
+                                <center>
+                                    <p class="badge badge-warning fs-6">Clique nos títulos abaixo para mais informações
+                                    </p>
+                                </center>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item04">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFour"
+                                            aria-expanded="false" aria-controls="flush-collapseFour">
+                                            <strong>Ciclo Conceitual</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                        aria-labelledby="Item04" data-bs-parent="#AccordionFase02">
+                                        <div class="accordion-body">
+                                            <p>Esse ciclo corresponde à fase inicial de conceituação do projeto, na qual
+                                                são
+                                                idealizadas as mais diversas possibilidades de solução ou de respostas,
+                                                incluindo os recursos a serem utilizados.</p>
+                                            <p>É o momento que marca o início de um projeto de investimento e pode
+                                                começar
+                                                com uma ideia percebida como adequada para atender uma demanda da
+                                                organização. Deve ser o ciclo de maior liberdade e deveria proporcionar
+                                                um
+                                                diagnóstico preliminar, para que o projeto possa ser estruturado. Ao seu
+                                                final, deve proporcionar uma ideia estruturada da oportunidade do
+                                                projeto,
+                                                discutindo-a razoavelmente, definindo a missão do projeto e as
+                                                restrições
+                                                conceituais que o projeto poderá enfrentar.</p>
+                                            <p><strong>Aspectos que merecem atenção nesse ciclo:</strong></p>
 
-                                        <div>
-                                            <ul class="list02">
-                                                <li class=" wow fadeInLeft" data-wow-delay="0.3s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> O horizonte de
-                                                    projeção de resultados deve ser definido e ele terá impacto sensível
-                                                    sobre o resultado do projeto;</li>
-                                                <li class=" wow fadeInLeft" data-wow-delay="0.6s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Modelo de
-                                                    decisão que será considerado na avaliação do projeto;</li>
-                                                <li class=" wow fadeInLeft" data-wow-delay="0.9s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Metodologias de
-                                                    avaliação de investimentos que serão consideradas na análise do
-                                                    projeto;</li>
-                                                <li class=" wow fadeInLeft" data-wow-delay="1.3s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Variáveis que
-                                                    são críticas no resultado da avaliação do projeto;</li>
-                                                <li class=" wow fadeInLeft" data-wow-delay="1.6s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Financiamento do
-                                                    projeto, no caso daqueles denominados de grande porte.</li>
-                                                <br>
-                                            </ul>
-                                        </div>
-
-                                        <!-- Reflita -->
-                                        <section id="content">
-                                            <div class="caixaprincipal" id="tituloreflita">
-                                                <div class="div_teste">
-                                                    <div> <i class="fa-solid fa-head-side-virus fa-xl me-2"></i>REFLITA
-                                                    </div>
-                                                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                                </div>
-                                            </div> <!--caixa Principal-->
-                                            <div class="accordion-content" id="reflita">
-                                                <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
-                                                    </strong></p>
-                                                <p class="txt-caixasecundaria">Quais as principais atividades dessa
-                                                    fase?</p>
+                                            <div>
+                                                <ul class="list02">
+                                                    <li class=" wow fadeInLeft" data-wow-delay="0.3s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i> O horizonte
+                                                        de
+                                                        projeção de resultados deve ser definido e ele terá impacto
+                                                        sensível
+                                                        sobre o resultado do projeto;</li>
+                                                    <li class=" wow fadeInLeft" data-wow-delay="0.6s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i> Modelo de
+                                                        decisão que será considerado na avaliação do projeto;</li>
+                                                    <li class=" wow fadeInLeft" data-wow-delay="0.9s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i> Metodologias
+                                                        de
+                                                        avaliação de investimentos que serão consideradas na análise do
+                                                        projeto;</li>
+                                                    <li class=" wow fadeInLeft" data-wow-delay="1.3s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i> Variáveis
+                                                        que
+                                                        são críticas no resultado da avaliação do projeto;</li>
+                                                    <li class=" wow fadeInLeft" data-wow-delay="1.6s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i>
+                                                        Financiamento do
+                                                        projeto, no caso daqueles denominados de grande porte.</li>
+                                                    <br>
+                                                </ul>
                                             </div>
-                                        </section><!--caixa secundaria-->
-                                        <br>
 
-                                        <div>
-                                            <ul class="list02">
-                                                <li class=" wow fadeInLeft" data-wow-delay="1.9s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Discutir com
-                                                    especialistas, fazer consultas, analisar melhor o problema, a ideia
-                                                    ou a oportunidade de se fazer esse projeto e discutir alternativas.
-                                                </li>
-                                                <li class=" wow fadeInLeft" data-wow-delay="2.3s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Caracteriza-se,
-                                                    portanto, como a fase de ideias e de análises superficiais.</li>
-                                            </ul>
-                                        </div>
-                                        <br>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item05">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseFive" aria-expanded="false"
-                                        aria-controls="flush-collapseFive">
-                                        <strong>Ciclo da seleção</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseFive" class="accordion-collapse collapse"
-                                    aria-labelledby="Item05" data-bs-parent="#AccordionFase02">
-                                    <div class="accordion-body">
-                                        <p>O processo seletivo pode ser complexo ou não, mas deve considerar algum tipo
-                                            de ritual de análise, que pode validar os projetos que devem ser eleitos
-                                            para implementação na entidade. Dito de outra forma, o processo de
-                                            estruturação do plano estratégico deve estar dentro de um calendário
-                                            estabelecido pela empresa. A análise dos projetos pode ser uma atividade
-                                            contínua a ser desenvolvida por um grupo de gestores, identificando os
-                                            projetos que a organização queira desenvolver e sua análise ocorre mediante
-                                            uma série de fatores.</p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item06">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseSix" aria-expanded="false"
-                                        aria-controls="flush-collapseSix">
-                                        <strong>Ciclo do Planejamento </strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="Item06"
-                                    data-bs-parent="#AccordionFase02">
-                                    <div class="accordion-body">
-                                        <p>Nesse momento, são formalizadas as etapas de elaboração do projeto com a
-                                            descrição dos objetivos, de justificativas, de ações a serem executadas e de
-                                            recursos necessários, visando sua implementação e, consequentemente, o
-                                            gerenciamento do fluxo de caixa do projeto que deve ser controlado e
-                                            otimizado. O tripé de elementos (gasto, tempo e especificações) deve ser
-                                            avaliado e, como consequência, projeções econômico-financeiras são
-                                            desenvolvidas a partir de premissas operacionais e financeiras. A análise
-                                            dos recursos deve ser estruturada, inclusive no que se refere à equipe, à
-                                            liderança, a tecnologias e a equipamentos.</p>
-                                        <p>É muito importante que alternativas para o projeto sejam identificadas e
-                                            analisadas e isso só é possível a partir da definição da missão do projeto,
-                                            o que deve ter ocorrido no ciclo conceitual.</p>
-                                        <br>
-
-                                        <!-- Reflita -->
-                                        <!-- Reflita -->
-                                        <section id="content">
-                                            <div class="caixaprincipal" id="tituloreflita">
-                                                <div class="div_teste">
-                                                    <div> <i class="fa-solid fa-head-side-virus fa-xl me-2"></i>REFLITA
+                                            <!-- Reflita -->
+                                            <section id="content">
+                                                <div class="caixaprincipal" id="tituloreflita">
+                                                    <div class="div_teste">
+                                                        <div> <i
+                                                                class="fa-solid fa-head-side-virus fa-xl me-2"></i>REFLITA
+                                                        </div>
+                                                        <i id="icon-pointer"
+                                                            class="fa-regular fa-hand-pointer fa-beat"></i>
                                                     </div>
-                                                    <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                                </div> <!--caixa Principal-->
+                                                <div class="accordion-content" id="reflita">
+                                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
+                                                        </strong></p>
+                                                    <p class="txt-caixasecundaria">Quais as principais atividades dessa
+                                                        fase?</p>
                                                 </div>
-                                            </div> <!--caixa Principal-->
-                                            <div class="accordion-content" id="reflita">
-                                                <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
-                                                    </strong></p>
-                                                <p class="txt-caixasecundaria">A que se propõe essa fase?</p>
+                                            </section><!--caixa secundaria-->
+                                            <br>
+
+                                            <div>
+                                                <ul class="list02">
+                                                    <li class=" wow fadeInLeft" data-wow-delay="1.9s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i> Discutir com
+                                                        especialistas, fazer consultas, analisar melhor o problema, a
+                                                        ideia
+                                                        ou a oportunidade de se fazer esse projeto e discutir
+                                                        alternativas.
+                                                    </li>
+                                                    <li class=" wow fadeInLeft" data-wow-delay="2.3s"><i
+                                                            class="fa fa-bullseye CorVerdeClaroEstado"></i>
+                                                        Caracteriza-se,
+                                                        portanto, como a fase de ideias e de análises superficiais.</li>
+                                                </ul>
                                             </div>
-                                        </section><!--caixa secundaria-->
-                                        <br>
+                                            <br>
+                                        </div>
+                                    </div>
+                                </div>
 
-                                        <p>Ao estudo mais detalhado de viabilidade da proposta escolhida, inclusive com
-                                            a definição de atividades, com a declaração de escopo, com a previsão de
-                                            prazos, com a previsão de custos de investimentos.</p>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item05">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseFive"
+                                            aria-expanded="false" aria-controls="flush-collapseFive">
+                                            <strong>Ciclo da seleção</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                                        aria-labelledby="Item05" data-bs-parent="#AccordionFase02">
+                                        <div class="accordion-body">
+                                            <p>O processo seletivo pode ser complexo ou não, mas deve considerar algum
+                                                tipo
+                                                de ritual de análise, que pode validar os projetos que devem ser eleitos
+                                                para implementação na entidade. Dito de outra forma, o processo de
+                                                estruturação do plano estratégico deve estar dentro de um calendário
+                                                estabelecido pela empresa. A análise dos projetos pode ser uma atividade
+                                                contínua a ser desenvolvida por um grupo de gestores, identificando os
+                                                projetos que a organização queira desenvolver e sua análise ocorre
+                                                mediante
+                                                uma série de fatores.</p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item06">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSix"
+                                            aria-expanded="false" aria-controls="flush-collapseSix">
+                                            <strong>Ciclo do Planejamento </strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSix" class="accordion-collapse collapse"
+                                        aria-labelledby="Item06" data-bs-parent="#AccordionFase02">
+                                        <div class="accordion-body">
+                                            <p>Nesse momento, são formalizadas as etapas de elaboração do projeto com a
+                                                descrição dos objetivos, de justificativas, de ações a serem executadas
+                                                e de
+                                                recursos necessários, visando sua implementação e, consequentemente, o
+                                                gerenciamento do fluxo de caixa do projeto que deve ser controlado e
+                                                otimizado. O tripé de elementos (gasto, tempo e especificações) deve ser
+                                                avaliado e, como consequência, projeções econômico-financeiras são
+                                                desenvolvidas a partir de premissas operacionais e financeiras. A
+                                                análise
+                                                dos recursos deve ser estruturada, inclusive no que se refere à equipe,
+                                                à
+                                                liderança, a tecnologias e a equipamentos.</p>
+                                            <p>É muito importante que alternativas para o projeto sejam identificadas e
+                                                analisadas e isso só é possível a partir da definição da missão do
+                                                projeto,
+                                                o que deve ter ocorrido no ciclo conceitual.</p>
+                                            <br>
+
+                                            <!-- Reflita -->
+                                            <!-- Reflita -->
+                                            <section id="content">
+                                                <div class="caixaprincipal" id="tituloreflita">
+                                                    <div class="div_teste">
+                                                        <div> <i
+                                                                class="fa-solid fa-head-side-virus fa-xl me-2"></i>REFLITA
+                                                        </div>
+                                                        <i id="icon-pointer"
+                                                            class="fa-regular fa-hand-pointer fa-beat"></i>
+                                                    </div>
+                                                </div> <!--caixa Principal-->
+                                                <div class="accordion-content" id="reflita">
+                                                    <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
+                                                        </strong></p>
+                                                    <p class="txt-caixasecundaria">A que se propõe essa fase?</p>
+                                                </div>
+                                            </section><!--caixa secundaria-->
+                                            <br>
+
+                                            <p>Ao estudo mais detalhado de viabilidade da proposta escolhida, inclusive
+                                                com
+                                                a definição de atividades, com a declaração de escopo, com a previsão de
+                                                prazos, com a previsão de custos de investimentos.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item07">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseSeven"
+                                            aria-expanded="false" aria-controls="flush-collapseSeven">
+                                            <strong>Ciclo de Implementação</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSeven" class="accordion-collapse collapse"
+                                        aria-labelledby="Item07" data-bs-parent="#AccordionFase02">
+                                        <div class="accordion-body">
+                                            <p>Entre a seleção do projeto e a sua implementação, podem ocorrer
+                                                diferentes
+                                                intervalos: um projeto pode ser aceito pela organização, mas só ser
+                                                implementado muito tempo depois, em decorrência tanto do tipo de
+                                                oportunidade, quanto de alguma variável externa que esteja afetando a
+                                                organização. Nessa fase, o cronograma de desenvolvimento se transforma
+                                                em
+                                                algo mais detalhado e específico, para poder efetivar e acompanhar de
+                                                maneira adequada a utilização dos recursos. No cronograma, as atividades
+                                                de
+                                                testes e os protótipos devem ser planejados e acompanhados.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item08">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseEight"
+                                            aria-expanded="false" aria-controls="flush-collapseEight">
+                                            <strong>Ciclo de Pós-Implementação</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseEight" class="accordion-collapse collapse"
+                                        aria-labelledby="Item08" data-bs-parent="#AccordionFase02">
+                                        <div class="accordion-body">
+
+                                            <p>No ciclo de pós-implementação tudo o que ocorrer após a implementação do
+                                                projeto, antes de seu encerramento, deve ser considerado. De qualquer
+                                                forma,
+                                                tanto o acompanhamento do projeto como a sua avaliação devem ser
+                                                pensados.
+                                            </p>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header" id="Item09">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
+                                            aria-expanded="false" aria-controls="flush-collapseNine">
+                                            <strong>Ciclo de Encerramento</strong>
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseNine" class="accordion-collapse collapse"
+                                        aria-labelledby="Item09" data-bs-parent="#AccordionFase02">
+                                        <div class="accordion-body">
+
+                                            <p class="scrool">O ciclo de encerramento de um projeto ocorre quando a sua
+                                                missão for
+                                                atingida, quando a razão pela qual o projeto foi iniciado for obtida. O
+                                                encerramento do projeto é uma etapa a ser prevista, sendo importante
+                                                pelas
+                                                consequências em termos de liberação de recursos e de entrada do projeto
+                                                em
+                                                atividade operacional. Em algumas organizações, o mesmo nível que aprova
+                                                os
+                                                projetos deve aprovar o encerramento. Formalmente, é a maneira da alta
+                                                administração tomar conhecimento do desempenho do projeto..</p>
+
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item07">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseSeven" aria-expanded="false"
-                                        aria-controls="flush-collapseSeven">
-                                        <strong>Ciclo de Implementação</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseSeven" class="accordion-collapse collapse"
-                                    aria-labelledby="Item07" data-bs-parent="#AccordionFase02">
-                                    <div class="accordion-body">
-                                        <p>Entre a seleção do projeto e a sua implementação, podem ocorrer diferentes
-                                            intervalos: um projeto pode ser aceito pela organização, mas só ser
-                                            implementado muito tempo depois, em decorrência tanto do tipo de
-                                            oportunidade, quanto de alguma variável externa que esteja afetando a
-                                            organização. Nessa fase, o cronograma de desenvolvimento se transforma em
-                                            algo mais detalhado e específico, para poder efetivar e acompanhar de
-                                            maneira adequada a utilização dos recursos. No cronograma, as atividades de
-                                            testes e os protótipos devem ser planejados e acompanhados.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item08">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseEight" aria-expanded="false"
-                                        aria-controls="flush-collapseEight">
-                                        <strong>Ciclo de Pós-Implementação</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseEight" class="accordion-collapse collapse"
-                                    aria-labelledby="Item08" data-bs-parent="#AccordionFase02">
-                                    <div class="accordion-body">
-
-                                        <p>No ciclo de pós-implementação tudo o que ocorrer após a implementação do
-                                            projeto, antes de seu encerramento, deve ser considerado. De qualquer forma,
-                                            tanto o acompanhamento do projeto como a sua avaliação devem ser pensados.
-                                        </p>
-
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="Item09">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#flush-collapseNine" aria-expanded="false"
-                                        aria-controls="flush-collapseNine">
-                                        <strong>Ciclo de Encerramento</strong>
-                                    </button>
-                                </h2>
-                                <div id="flush-collapseNine" class="accordion-collapse collapse"
-                                    aria-labelledby="Item09" data-bs-parent="#AccordionFase02">
-                                    <div class="accordion-body">
-
-                                        <p class="scrool">O ciclo de encerramento de um projeto ocorre quando a sua
-                                            missão for
-                                            atingida, quando a razão pela qual o projeto foi iniciado for obtida. O
-                                            encerramento do projeto é uma etapa a ser prevista, sendo importante pelas
-                                            consequências em termos de liberação de recursos e de entrada do projeto em
-                                            atividade operacional. Em algumas organizações, o mesmo nível que aprova os
-                                            projetos deve aprovar o encerramento. Formalmente, é a maneira da alta
-                                            administração tomar conhecimento do desempenho do projeto..</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div><br><br>
+                        </div>
+                    <br><br>
                         <!-- FIM Accordion Fase 02 - Begin  -->
+
 
                         <!-- subtítulo-->
                         <h3 class="Subtopico fw-bolder scrool">Um Pouco de História</h3>
