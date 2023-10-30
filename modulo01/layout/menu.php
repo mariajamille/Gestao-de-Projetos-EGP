@@ -1,7 +1,6 @@
-
 <nav class="menulateral shadow-lg">
     <div class="btn-expandir">
-       <a href="https://www.egp.ce.gov.br/" target="_blank"><img src="imgs/logoEGP2.png" alt="logo" id="logo"></a>
+        <a href="https://www.egp.ce.gov.br/" target="_blank"><img src="imgs/logoEGP2.png" alt="logo" id="logo"></a>
     </div>
     <!-- os topicos começam aqui  -->
     <ul>
@@ -12,37 +11,35 @@
             </a>
         </li>
 
-        <li class="menu">
-            <a href="topico01.php">
-                <span class="icon "><i class="bi bi-1-circle"></i>
-                </span>
-                <span class="txt">Administração Estratégica</i></span>
-            </a>
-        </li>
-
         <!-- topico com Subtópico -->
         <button class="dropdown-btn">
             <li class="menu">
-                <a data-valor="topico02.php">
-                    <span class="icon space"><i class="bi bi-2-circle"></i></span>
-                    <span class="txt">Conceitos e Ciclo de Vida do Projeto</span>
-                        <i class="bi bi-caret-down-fill barra-sub"></i>
+                <a data-valor="topico01.php">
+                    <span class="icon space"><i class="bi bi-1-circle"></i></span>
+                    <span class="txt">Administração Estratégica</span>
+                    <i class="bi bi-caret-down-fill barra-sub"></i>
                 </a>
             </li>
         </button>
         <!-- subtopicos aqui  -->
         <div class="dropdown-container">
-            <a href="topico02.php">
+            <a href="topico01.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item2.1">
-                <i class="bi bi-journals circulo"></i>2.1 - NBR ISO 9241-11</a>
-            <a href="#item2.2">
-                <i class="bi bi-journals circulo"></i>2.2 -ISO/IEC 25000 (SQuaRE)</a>
-            <a href="#item2.3">
-                <i class="bi bi-journals circulo"></i>2.3 - Heurísticas de Nielsen</a>
-            <a href="#item2.4">
-                <i class="bi bi-journals circulo"></i>2.4 - O que não é usual?</a>
+            <a href="#item1.2">
+                <i class="bi bi-journals circulo"></i>1.2 - O Planejamento Estratégico</a>
+            <a href="#item1.3">
+                <i class="bi bi-journals circulo"></i> 1.3 - Missão e Visão</a>
+            <a href="#item1.4">
+                <i class="bi bi-journals circulo"></i>1.4 - Projetos como Viabilizadores de Mudanças nas Organizações</a>
         </div>
+
+        <li class="menu">
+            <a href="topico02.php">
+                <span class="icon "><i class="bi bi-2-circle"></i>
+                </span>
+                <span class="txt">Conceitos e Ciclo de Vida do Projeto</i></span>
+            </a>
+        </li>
 
         <!-- topico com Subtópico -->
         <button class="dropdown-btn">
@@ -50,7 +47,7 @@
                 <a data-valor="topico03.php">
                     <span class="icon space"><i class="bi bi-3-circle"></i></span>
                     <span class="txt">Elaboração de Projeto</span>
-                        <i class="bi bi-caret-down-fill barra-sub"></i>
+                    <i class="bi bi-caret-down-fill barra-sub"></i>
                 </a>
             </li>
         </button>
@@ -87,7 +84,7 @@
                 <a data-valor="topico04.php">
                     <span class="icon space"><i class="bi bi-4-circle"></i></span>
                     <span class="txt">A Importância da Gestão de Projetos na Administração Pública</span>
-                        <i class="bi bi-caret-down-fill barra-sub"></i>
+                    <i class="bi bi-caret-down-fill barra-sub"></i>
                 </a>
             </li>
         </button>

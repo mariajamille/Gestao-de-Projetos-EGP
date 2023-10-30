@@ -62,6 +62,19 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     /*  */
 }
 
+/* COLORS */
+.CorVerdeEstado{
+    color: #44833D;
+}
+[data-theme="dark"] .CorVerdeEstado{
+    color: white;
+}
+
+.CorLaranja{
+    color: #f18519;
+}
+/* COLORS END */
+
 a {
     text-decoration: none;
     color: #4a71f1;
@@ -355,6 +368,7 @@ ul li.menu a:hover {
 
 [data-theme="dark"] .dropdown-container a:hover {
     background-color: #3be3e2;
+    color: black;
 }
 
 .circulo {
@@ -813,6 +827,13 @@ o estado inicial de height 0 manteria o texto aparecendo */
     font-size: 1.2rem;
 }
 
+.bd {
+    border: 1px solid #cccccc9a;
+    border-left: 5px solid #f18519;
+    border-radius: 7px;
+    padding: 1.5rem;
+}
+
 /* estilo da pagina do primeiro modulo */
 .bd-callout {
     border: 1px solid #cccccc9a;
@@ -820,7 +841,6 @@ o estado inicial de height 0 manteria o texto aparecendo */
     border-radius: 7px;
     padding: 1.5rem;
 }
-
 
 
 .text-center .text {
@@ -1231,8 +1251,6 @@ img#imagem-erro {
     transition: width 0.5s ease-out;
     z-index: 5;
 }
-
-
 
 /* FOOTER */
 footer {

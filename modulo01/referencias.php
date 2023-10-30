@@ -35,65 +35,57 @@ include('layout/header.php');
                             <br>
 
                             <!-- ADICIONEI NOVOS ÍCONES NAS REFERÊNCIAS -->
-                            <p class="Texto"> <i class="bi bi-book "></i> ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR
-                                9241-11:
-                                <strong>Requisitos ergonômicos para trabalho de escritórios com
-                                    computadores.</strong> Parte 11-Orientações sobre usabilidade. 2002
+                            <p class="Texto"> <i class="bi bi-book "></i> <strong>A Implantação do Escritório de
+                                    Gerenciamento de Projetos na Gestão Pública</strong>: Estudo de Caso da COGERH.</p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> BRESSER-PEREIRA, Luis Carlos <strong>Reforma do
+                                    estado para a cidadania</strong>: a reforma gerencial brasileira na perspectiva
+                                internacional. Brasília: ENAP, 1998.</p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> CEARÁ, Governo do Estado do Ceará, Decreto
+                                Estadual nº 29.917, de 08 de outubro de 2009. Redefine o Sistema Estadual de
+                                Planejamento e institui a Rede Estadual de Planejamento. <strong>Diário Oficial do
+                                    Estado do Ceará</strong>. Série 3, nº190, Fortaleza, 2009. </p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> DINSMORE, Paul Campbell. <strong>Gerência de
+                                    programas e projetos</strong>. São Paulo: Pini, 1992. </p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> HELDMAN, Kim, <strong>Gerência de
+                                    Projetos</strong>. Rio de Janeiro: Campus, 2006.</a>.
                             </p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i><strong> ISO/IEC 25000 </strong>Software and
-                                system engineering–Software product
-                                Quality Requirements and Evaluation (SQuaRE) - Guide to SQuaRE.
-                                International Organization for Standarization, 2014.</p>
-
-                            <p class="Texto"> <i class="bi bi-book"></i><strong> ISO. ISO/IEC 25010:</strong> 2011
-                                (2011). Systems and software engineering--
-                                Systems and software Quality Requirements and Evaluation (SQuaRE)--
-                                System and software quality models. Geneva, 2011. </p>
-                            <p class="Texto"> <i class="bi bi-book"></i><strong> ABREU, L. M. Usabilidade de telefones
-                                    celulares com base em
-                                    critérios ergonômicos.</strong> Tese de Mestrado pelo Programa de PósGraduação em
-                                Design do Departamento de Artes & Design, PUC-Rio.
-                                Rio de Janeiro. 2005. </p>
-                            <p class="Texto"> <i class="bi bi-book"></i> REBELO, Irla B.<strong>Usabilidade e suas
-                                    metas.</strong> Apostila. Brasília, DF. Última
-                                atualização em novembro de 2009. Disponível em
-                                <a href="https://irlabr.wordpress.com/"
-                                    target="_blank">https://irlabr.wordpress.com/</a>.
-                            </p>
-                            <p class="Texto"> <i class="bi bi-book"></i> NIELSEN, J. (2012, January 3).
-                                <strong>Usability 101: Introduction to Usability.</strong>
-                                Acessado em novembro de 2020. Disponível em
-                                <a href="https://www.nngroup.com/articles/usability-101-introduction-to-usability/"
-                                    target="_blank">
-                                    https://www.nngroup.com/articles/usability-101-introduction-tousability</a>
-                            </p>
-                            <p class="Texto"> <i class="bi bi-book"></i> BARBOSA, Simone; SILVA, Bruno.
-                                <strong>Interação humano-computador.</strong>
-                                Elsevier Brasil, 2010. </p>
-                            <p class="Texto">NIELSEN, J. (1994, April 24). <strong>10 Usability Heuristics for User
-                                    Interface Design</strong>. Retrieved November 16, 2020, from <a
-                                    href="https://www.nngroup.com/articles/ten-usability-heuristics/"
-                                    target="_blank">https://www.nngroup.com/articles/ten-usability-heuristics/</a>.</p>
-
-                            <p class="Texto"> <i class="bi bi-book"></i> Nielsen, J. (1994a). <strong>Enhancing the explanatory power of usability
-                                    heuristics</strong>. Proc. ACM CHI'94 Conf. (Boston, MA, April 24-28), 152-158.</p>
-
-                            <p class="Texto"> <i class="bi bi-book"></i> Nielsen, J. (1994b). <strong>Heuristic evaluation</strong>. In Nielsen, J.,
-                                and Mack, R.L. (Eds.), Usability Inspection Methods, John Wiley & Sons, New York, NY.
+                            <p class="Texto"> <i class="bi bi-book"></i> KERZNER,Harold, <strong>Gestão de
+                                    Projetos</strong>: as melhores práticas. Porto Alegre: Bookman, 2006.
                             </p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> Gordon, Kelley (March 1, 2020). <strong>5 Principles of Visual Design in
-                                    UX</strong>. Retrieved November 22, 2020, from <a
-                                    href="https://www.nngroup.com/articles/principles-visual-design/"
-                                    target="_blank">https://www.nngroup.com/articles/principles-visual-design/</a>. </p>
+                            <p class="Texto"> <i class="bi bi-book"></i> MEREDITH, Jack R.; MANTEL, Samuel J.
+                                <strong>Project management</strong>: a managerial approach. 7th edition. New York:
+                                Wiley, 2008
+                            </p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> CARELMAN, Jacques. <strong>Catalogue d'objets introuvables</strong>.
-                                Balland, 1980.</p>
+                            <p class="Texto"><i class="bi bi-book"></i> MOURA, D.G.; BARBOSA, E. F. <strong>Trabalhando
+                                    com projetos</strong>.
+                                Petrópolis: Vozes, 2008.</p>
 
-                            <p class="Texto"> <i class="bi bi-book"></i> NORMAN, Donald A. <strong>O design do dia a dia</strong>. Editora Rocco,
-                                2018.</p>
+                            <p class="Texto"> <i class="bi bi-book"></i> PMI. <strong>Um guia do conjunto de
+                                    conhecimento em gerenciamento de projetos (PMBOK)</strong>. 5. ed. São Paulo:
+                                Saraiva, 2013.</p>
 
+                            <p class="Texto"> <i class="bi bi-book"></i> ______<strong>Um guia do conjunto de
+                                    conhecimento em gerenciamento de programas</strong> (Guia PMBOK), 4. ed. São Paulo:
+                                Saraiva, 2012.
+                            </p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> PORTER, Michael. E. <strong>Estratégia
+                                    competitiva</strong>. Rio de Janeiro: Campus, 2005. </p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> SECRETARIA DE PLANEJAMENTO E GESTÃO.
+                                <strong>Manual de Gerenciamento de Projetos Finalísticos do Governo do Estado do
+                                    Ceará</strong>. Fortaleza, 2007.
+                            </p>
+
+                            <p class="Texto"> <i class="bi bi-book"></i> VALLE, André B. do et al. <strong>Fundamentos
+                                    de Gerenciamento de Projetos</strong>, 2. ed. Rio de Janeiro: FGV, 2010.</p>
 
                             <!-- Botões de navegação -->
                             <div class="text-center">
