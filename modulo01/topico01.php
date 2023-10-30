@@ -27,11 +27,10 @@ include('layout/header.php');
                     <!-- Begin row -->
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
-                        <h2 class="Titulo fw-bolder scrool">1 - Administração Estratégica</h2>
+                        <h2 class="Titulo fw-bolder scrool">01 - Administração Estratégica</h2>
                         <br>
 
                         <div class="bd scrool">
-
                             <p class="fw-semibold">Objetivos:</p>
                             <ul class="list02">
                                 <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
@@ -162,7 +161,7 @@ include('layout/header.php');
                             riscos, tendo como horizonte a busca de resultados.</p><br>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder scrool" id="item1.2"> 1.2 - O Planejamento Estratégico</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item01.2">01.2 - O Planejamento Estratégico</h3>
                         <!-- subtopico -->
 
                         <p class="scrool">Planejamento estratégico pode ser compreendido como um processo desenvolvido
@@ -241,7 +240,7 @@ include('layout/header.php');
                         <br><br><br>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder scrool" id="item1.3">1.3 - Missão e Visão</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item01.3">01.3 - Missão e Visão</h3>
                         <!-- subtopico -->
 
                         <p class="scrool">É comum e usual, nas metodologias de planejamento estratégico, a definição de
@@ -337,7 +336,7 @@ include('layout/header.php');
 
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool" id="item1.4">1.4 - Projetos como Viabilizadores de
+                        <h3 class="Subtopico fw-bolder scrool" id="item01.4">01.4 - Projetos como Viabilizadores de
                             Mudanças nas Organizações</h3>
                         <!-- subtítulo -->
 

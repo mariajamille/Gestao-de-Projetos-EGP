@@ -25,12 +25,12 @@
         <div class="dropdown-container">
             <a href="topico01.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item1.2">
-                <i class="bi bi-journals circulo"></i>1.2 - O Planejamento Estratégico</a>
-            <a href="#item1.3">
-                <i class="bi bi-journals circulo"></i> 1.3 - Missão e Visão</a>
-            <a href="#item1.4">
-                <i class="bi bi-journals circulo"></i>1.4 - Projetos como Viabilizadores de Mudanças nas Organizações</a>
+            <a href="#item01.2">
+                <i class="bi bi-journals circulo"></i>01.2 - O Planejamento Estratégico</a>
+            <a href="#item01.3">
+                <i class="bi bi-journals circulo"></i>01.3 - Missão e Visão</a>
+            <a href="#item01.4">
+                <i class="bi bi-journals circulo"></i>01.4 - Projetos como Viabilizadores de Mudanças nas Organizações</a>
         </div>
 
         <li class="menu">
