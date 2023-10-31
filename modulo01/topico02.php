@@ -7,7 +7,7 @@ include('layout/header.php');
 <!-- PLUGIN DO FADE IN -->
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
-    AOS.init();
+AOS.init();
 </script>
 
 <body>
@@ -68,14 +68,16 @@ include('layout/header.php');
                                                 </div>
                                                 <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                             </div>
-                                        </div> <!--caixa Principal-->
+                                        </div>
+                                        <!--caixa Principal-->
                                         <div class="accordion-content" id="reflita">
                                             <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                 </strong></p>
                                             <p class="txt-caixasecundaria">Este curso que você está iniciando já foi
                                                 parte de seu projeto de vida em algum momento?</p>
                                         </div>
-                                    </section><!--caixa secundaria-->
+                                    </section>
+                                    <!--caixa secundaria-->
                             </div>
                         </section><br>
                         <!-- FIM DA CAIXA REFLITA-->
@@ -148,13 +150,15 @@ include('layout/header.php');
                                                 </div>
                                                 <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                             </div>
-                                        </div> <!--caixa Principal-->
+                                        </div>
+                                        <!--caixa Principal-->
                                         <div class="accordion-content" id="reflita">
                                             <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                 </strong></p>
                                             <p class="txt-caixasecundaria">O que essas definições têm em comum?</p>
                                         </div>
-                                    </section><!--caixa secundaria-->
+                                    </section>
+                                    <!--caixa secundaria-->
                             </div>
                         </section>
                         <!-- FIM DA CAIXA REFLITA-->
@@ -241,14 +245,16 @@ include('layout/header.php');
                                                 </div>
                                                 <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                             </div>
-                                        </div> <!--caixa Principal-->
+                                        </div>
+                                        <!--caixa Principal-->
                                         <div class="accordion-content" id="reflita">
                                             <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                 </strong></p>
                                             <p class="txt-caixasecundaria">Podemos considerar este curso como um
                                                 projeto?</p>
                                         </div>
-                                    </section><!--caixa secundaria-->
+                                    </section>
+                                    <!--caixa secundaria-->
                             </div>
                         </section>
                         <!-- FIM DA CAIXA REFLITA-->
@@ -284,8 +290,10 @@ include('layout/header.php');
                                             </div>
                                             <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                         </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                    </div>
+                                    <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento">
+                                        <!--caixa secundaria-->
                                         <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
                                         </p>
                                         <p class="txt-caixasecundaria">Identificamos a noção de gestão por projetos
@@ -432,7 +440,8 @@ include('layout/header.php');
 
                                             <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                         </div>
-                                    </div> <!--caixa Principal-->
+                                    </div>
+                                    <!--caixa Principal-->
                                     <div class="accordion-content" id="saibamais">
                                         <p class="txt-aviso"><strong class="opacity-75"><strong class="opacity-75">
                                                     Passe o mouse acima
@@ -440,7 +449,8 @@ include('layout/header.php');
                                         <p class="txt-caixasecundaria"> <a href="https://www.pmi.org/brasil"
                                                 target="_blank" rel="noopener noreferrer">Clique aqui</a> e conheça um
                                             pouco mais sobre os padrões fundamentais.</p>
-                                        </p><!--caixa secundaria-->
+                                        </p>
+                                        <!--caixa secundaria-->
                                     </div>
                                 </section>
                         </section><br>
@@ -491,14 +501,16 @@ include('layout/header.php');
                                                 </div>
                                                 <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                             </div>
-                                        </div> <!--caixa Principal-->
+                                        </div>
+                                        <!--caixa Principal-->
                                         <div class="accordion-content" id="reflita">
                                             <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                 </strong></p>
                                             <p class="txt-caixasecundaria">Considerando os conceitos de programa e de
                                                 projeto, o que os diferencia?</p>
                                         </div>
-                                    </section><!--caixa secundaria-->
+                                    </section>
+                                    <!--caixa secundaria-->
                             </div>
                         </section>
                         <!-- FIM DA CAIXA REFLITA-->
@@ -554,13 +566,15 @@ include('layout/header.php');
                                                 </div>
                                                 <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
                                             </div>
-                                        </div> <!--caixa Principal-->
+                                        </div>
+                                        <!--caixa Principal-->
                                         <div class="accordion-content" id="reflita">
                                             <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                 </strong></p>
                                             <p class="txt-caixasecundaria">O que é um portfólio de projetos?</p>
                                         </div>
-                                    </section><!--caixa secundaria-->
+                                    </section>
+                                    <!--caixa secundaria-->
                             </div>
                         </section>
                         <!-- FIM DA CAIXA REFLITA-->
@@ -717,14 +731,16 @@ include('layout/header.php');
                                                         <i id="icon-pointer"
                                                             class="fa-regular fa-hand-pointer fa-beat"></i>
                                                     </div>
-                                                </div> <!--caixa Principal-->
+                                                </div>
+                                                <!--caixa Principal-->
                                                 <div class="accordion-content" id="reflita">
                                                     <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                         </strong></p>
                                                     <p class="txt-caixasecundaria">Quais as principais atividades dessa
                                                         fase?</p>
                                                 </div>
-                                            </section><!--caixa secundaria-->
+                                            </section>
+                                            <!--caixa secundaria-->
                                             <br>
 
                                             <div>
@@ -813,13 +829,15 @@ include('layout/header.php');
                                                         <i id="icon-pointer"
                                                             class="fa-regular fa-hand-pointer fa-beat"></i>
                                                     </div>
-                                                </div> <!--caixa Principal-->
+                                                </div>
+                                                <!--caixa Principal-->
                                                 <div class="accordion-content" id="reflita">
                                                     <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima
                                                         </strong></p>
                                                     <p class="txt-caixasecundaria">A que se propõe essa fase?</p>
                                                 </div>
-                                            </section><!--caixa secundaria-->
+                                            </section>
+                                            <!--caixa secundaria-->
                                             <br>
 
                                             <p>Ao estudo mais detalhado de viabilidade da proposta escolhida, inclusive
@@ -878,8 +896,7 @@ include('layout/header.php');
                                         </div>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
+                                <div class="accordion-item Texto">
                                     <h2 class="accordion-header" id="Item09">
                                         <button class="accordion-button collapsed" type="button"
                                             data-bs-toggle="collapse" data-bs-target="#flush-collapseNine"
@@ -891,24 +908,22 @@ include('layout/header.php');
                                         aria-labelledby="Item09" data-bs-parent="#AccordionFase02">
                                         <div class="accordion-body">
 
-                                            <p class="scrool">O ciclo de encerramento de um projeto ocorre quando a sua
-                                                missão for
+                                            <p>O ciclo de encerramento de um projeto ocorre quando a sua missão for
                                                 atingida, quando a razão pela qual o projeto foi iniciado for obtida. O
                                                 encerramento do projeto é uma etapa a ser prevista, sendo importante
-                                                pelas
-                                                consequências em termos de liberação de recursos e de entrada do projeto
-                                                em
-                                                atividade operacional. Em algumas organizações, o mesmo nível que aprova
-                                                os
-                                                projetos deve aprovar o encerramento. Formalmente, é a maneira da alta
-                                                administração tomar conhecimento do desempenho do projeto..</p>
+                                                pelas consequências em termos de liberação de recursos e de entrada do
+                                                projeto em atividade operacional. Em algumas organizações, o mesmo nível
+                                                que aprova os projetos deve aprovar o encerramento. Formalmente, é a
+                                                maneira da alta administração tomar conhecimento do desempenho do
+                                                projeto..</p>
 
                                         </div>
                                     </div>
                                 </div>
+
                             </div>
                         </div>
-                    <br><br>
+                        <br><br>
                         <!-- FIM Accordion Fase 02 - Begin  -->
 
 
@@ -1097,7 +1112,7 @@ include('layout/header.php');
                         <!-- Imagem 08 - End  (Audi)-->
 
                         <br>
-                        <p><strong>Esses estágios são:</strong></p>
+                        <p class="scrool"><strong>Esses estágios são:</strong></p>
                         <br>
 
                         <!--Alerta -->
@@ -1198,10 +1213,207 @@ include('layout/header.php');
 
                         </div>
                         <br>
-                        <p>A imagem 09 mostra a forma como os processos interagem entre si e aponta o nível de
+                        <p class="scrool">A imagem 09 mostra a forma como os processos interagem entre si e aponta o
+                            nível de
                             sobreposição em várias situações. Caso o processo esteja dividido em fases, os grupos de
                             processos se inter-relacionam dentro de cada fase (PMBOK, 2015).</p>
                         <br>
+
+
+                        <!-- IMAGEM 09  -->
+                        <div class="text-center img-01 scrool">
+                            <div class="zoom">
+                                <a href="imags/Figura09.png" data-bs-toggle="modal" data-bs-target="#Imagem09">
+                                    <img src="imgs/Figura09.png" alt="Estágios">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 09 - </strong>Estágios</p>
+                        </div>
+
+                        <!-- Imagem 09 - MODAL (Audi)-->
+                        <div class="modal fade text-center" id="Imagem09" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura09.png" alt="Estágios">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 09 - </strong>Estágios</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem 09 - End  (Audi)-->
+
+                        <br>
+                        <p class="scrool">A fase de monitoramento é bastante crítica, pois é nessa fase que
+                            identificamos se aquilo que foi planejado está sendo realizado com a qualidade especificada
+                            inicialmente, se existem possibilidades de realizar melhorias no decorrer do processo,
+                            evitando descaso através de ações corretivas no momento adequado. Caso isso não ocorra,
+                            haverá a possibilidade de surgirem novos custos que poderão inclusive inviabilizar o sucesso
+                            do projeto.</p>
+                        <br>
+
+                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                        <section class="container scrool">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                            </div>
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div>
+                                    <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento">
+                                        <!--caixa secundaria-->
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        </p>
+                                        <p class="txt-caixasecundaria">Dessa forma, podemos dizer que o ciclo de vida de
+                                            um projeto trata das etapas de início, planejamento, execução, monitoramento
+                                            e conclusão, reafirmando que um projeto é sempre temporário com datas de
+                                            início e fim previstas. Deve apresentar um planejamento consistente com a
+                                            realidade, buscar a previsibilidade de fazer aferições sobre o fim do
+                                            projeto, dependendo, obviamente, das externalidades e do bom desempenho do
+                                            monitoramento.</p>
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                        <p>A elaboração de projetos delimita o escopo das atividades a serem executadas pelos
+                            prestadores de serviços ou fornecedores.</p>
+
+                        <p>Os instrumentos gráficos de gestão, como o cronograma e o orçamento são essenciais ao
+                            projeto, pois conseguimos visualizar de uma forma clara e mais eficiente se tivermos esses
+                            dados em planilhas, conforme ilustra a imagem 10.
+                        </p>
+                        <br>
+
+                        <!-- IMAGEM 10  -->
+                        <div class="text-center img-01 scrool">
+                            <div class="zoom">
+                                <a href="imags/Figura10.png" data-bs-toggle="modal" data-bs-target="#Imagem10">
+                                    <img src="imgs/Figura10.png" alt=" Planilha">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 10- </strong> Planilha</p>
+                        </div>
+
+                        <!-- Imagem 10 - MODAL (Audi)-->
+                        <div class="modal fade text-center" id="Imagem10" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-75">
+                                    <img class="img-fluid" src="imgs/Figura10.png" alt=" Planilha">
+                                </div>
+                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 10- </strong> Planilha</p>
+                                </div>
+                            </div>
+                        </div><br>
+                        <!-- Imagem 10- End (Audi)-->
+
+                        <!-- subtítulo-->
+                        <h3 class="Subtopico fw-bolder scrool">Origem de Projetos</h3>
+                        <!-- subtítulo -->
+
+                        <p> Os projetos se originam de várias fontes.</p>
+                        <br>
+                        <!-- tabela -->
+                        <table class="table table-bordered  border-white ">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-white "
+                                        style="background-color:ForestGreen; text-align: center;">Necessidade do
+                                        Negócio
+                                    </th>
+                                    <th scope="col" class="text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Obrigação legal
+                                    </th>
+                                    <th scope="col" class="text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Demanda do mercado
+                                        ou
+                                        da sociedade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-arrow-right CorVerdeEstado"></i> Melhoria de
+                                        eficiência<br /> <i class="fa fa-arrow-right CorVerdeEstado"></i>
+                                        Redução
+                                        de risco<br /> <i class="fa fa-arrow-right CorVerdeEstado"></i> Avanço
+                                        tecnológico</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th class="align-middle text-white "
+                                        style="background-color:ForestGreen; text-align: center;">Problema</th>
+                                    <td>
+                                        <p>Quando o problema já existe, temos a necessidade de tentar corrigi-lo.
+                                        </p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white "
+                                        style="background-color:ForestGreen; text-align: center;">Uma ideia</th>
+                                    <td>
+                                        <p>No trabalho cotidiano da empresa, temos uma ideia para melhorar uma
+                                            determinada situação.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white "
+                                        style="background-color:ForestGreen; text-align: center; ">Uma oportunidade
+                                    </th>
+                                    <td>
+                                        <p>Através de editais que sempre surgem, principalmente na área pública.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table">
+                            <tbody>
+                                <tr class="Exemplo">
+                                    <th class=" align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center; width:180px;">
+                                        <strong>Síntese</strong>
+                                    </th>
+                                    <td>
+                                        <p><i class="fa fa-bullseye CorVerdeEstado"></i> Os projetos são
+                                            estudos
+                                            sistematizados sobre as diversas variáveis inerentes a alguma ideia, a
+                                            alguma oportunidade ou a algum problema a ser explorado em busca de
+                                            soluções.</p>
+                                        <p><i class="fa fa-bullseye CorVerdeEstado"></i> Os projetos também são
+                                            úteis ao permitirem aos administradores uma análise profunda de todos os
+                                            aspectos positivos e negativos relacionados aos estudos para tomada de
+                                            decisão – projeto entendido como uma ferramenta de gestão.</p>
+                                        <p><i class="fa fa-bullseye CorVerdeEstado"></i> Os projetos devem ser
+                                            simultaneamente temporários, singulares, e devem utilizar recursos
+                                            humanos,
+                                            financeiros e materiais.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
 
 
 
