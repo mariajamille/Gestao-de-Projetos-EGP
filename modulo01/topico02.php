@@ -32,7 +32,7 @@ include('layout/header.php');
                     <!-- Begin row -->
                     <div class="col-md-1"></div>
                     <div class="col-md-10 col-sm-8 container-fluid">
-                        <h2 class="Titulo fw-bolder">02 - Usabilidade</h2>
+                        <h2 class="Titulo fw-bolder">02 - Conceitos e Ciclo de Vida do Projeto</h2>
                         <br>
 
                         <div class="bd scrool">
