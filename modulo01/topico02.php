@@ -1134,7 +1134,7 @@ AOS.init();
                                 objetivos e definir a linha de ação necessária para alcançar os objetivos para os quais
                                 o projeto foi criado. Principais características:</p><br>
                             <div>
-                                <ul class="none Texto text-white">
+                                <ul class="none text-white">
                                     <li><i class="fa fa-bullseye CinzaEstado"></i> Construção progressiva da
                                         estruturação das tarefas no tempo e suas interdependências junto a aspectos
                                         financeiros;</li>
@@ -1179,7 +1179,7 @@ AOS.init();
                                 necessário realizar alterações no plano, iniciando, assim, as mudanças necessárias.
                                 Principais características:</p><br>
                             <div>
-                                <ul class="none Texto text-white">
+                                <ul class="none text-white">
                                     <li><i class="fa fa-bullseye AzulEstadoEscuro"></i> Identificação de variações
                                         relacionadas ao planejamento, podendo-se atuar corretivamente na execução ou se
                                         adequar eventos futuros;</li>
@@ -1306,10 +1306,10 @@ AOS.init();
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
+                                <div class="modal-content w-100">
                                     <img class="img-fluid" src="imgs/Figura10.png" alt=" Planilha">
                                 </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                <div class="modal-footer w-100 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Figura 10- </strong> Planilha</p>
                                 </div>
                             </div>

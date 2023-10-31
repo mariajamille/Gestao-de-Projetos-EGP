@@ -62,6 +62,10 @@ p.paragrafo {
   color: #155724;
 }
 
+[data-theme="dark"] .alert-success p{
+    color: #155724;
+}
+
 .alert-danger {
   background-color: #f7616e;
   color: #fff;
@@ -145,7 +149,9 @@ p.paragrafo {
 [data-theme="dark"] .accordion-body p {
   color: white;
 }
+/* FIM DA CONFIGURÇÃO DO ACCORDION */
 
+/* CONFIGURÇÃO DA TABELA (TÓPICO 2) */
 table th{
   font-family: "Raleway";
   text-align: center;
@@ -154,3 +160,8 @@ table th{
 td{
   background-color: red;
 }
+
+[data-theme="dark"] .card-body{
+  background-color: #29292B;
+}
+/* FIM DA CONFIGURÇÃO DA TABELA (TÓPICO 2) */
