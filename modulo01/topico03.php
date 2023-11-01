@@ -269,9 +269,19 @@ include('layout/header.php');
                                         <div class="txt-caixasecundaria">Aquisição de Equipamentos é uma atividade que
                                             poderá apresentar as seguintes tarefas:
 
-                                            <p>kkkk</p>
-                                        <div>
-                                    </div>
+                                            <!-- <p class="none">
+                                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
+                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Especificar os
+                                                    equipamentos;</li>
+                                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
+                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Analisar a
+                                                    melhor tecnologia disponível em relação ao equipamento;</li>
+                                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.3s"><i
+                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i>
+                                                    Realizar cotação de fornecedores ou licitação.</li>
+</p> -->
+                                            <div>
+                                            </div>
                                 </section>
                             </div>
                         </section>
