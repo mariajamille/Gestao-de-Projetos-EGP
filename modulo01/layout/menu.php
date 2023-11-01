@@ -30,16 +30,34 @@
             <a href="#item01.3">
                 <i class="bi bi-journals circulo"></i>01.3 - Missão e Visão</a>
             <a href="#item01.4">
-                <i class="bi bi-journals circulo"></i>01.4 - Projetos como Viabilizadores de Mudanças nas Organizações</a>
+                <i class="bi bi-journals circulo"></i>01.4 - Projetos como Viabilizadores de Mudanças nas
+                Organizações</a>
         </div>
 
-        <li class="menu">
+         <!-- topico com Subtópico -->
+         <button class="dropdown-btn">
+            <li class="menu">
+                <a data-valor="topico02.php">
+                    <span class="icon space"><i class="bi bi-2-circle"></i></span>
+                    <span class="txt">Conceitos e Ciclo de Vida do Projeto</span>
+                    <i class="bi bi-caret-down-fill barra-sub"></i>
+                </a>
+            </li>
+        </button>
+        <!-- subtopicos aqui  -->
+        <div class="dropdown-container">
             <a href="topico02.php">
-                <span class="icon "><i class="bi bi-2-circle"></i>
-                </span>
-                <span class="txt">Conceitos e Ciclo de Vida do Projeto</i></span>
-            </a>
-        </li>
+                <i class="bi bi-journals circulo"></i>Início</a>
+            <a href="#item02.1">
+                <i class="bi bi-journals circulo"></i>02.1 - Diferença entre Projeto e Programas</a>
+            <a href="#item02.2">
+                <i class="bi bi-journals circulo"></i>02.2 -
+                Os Ciclos de um Projeto</a>
+            <a href="#item02.3">
+                <i class="bi bi-journals circulo"></i>02.3 - Ciclo de Vida de Projeto</a>
+            <a href="#item02.4">
+                <i class="bi bi-journals circulo"></i>02.4 - Origem de Projetos</a>
+        </div>
 
         <!-- topico com Subtópico -->
         <button class="dropdown-btn">
@@ -55,27 +73,16 @@
         <div class="dropdown-container">
             <a href="topico03.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item3.1">
-                <i class="bi bi-journals circulo"></i>3.1 - Visibilidade de qual estado estamos no sistema</a>
-            <a href="#item3.2">
-                <i class="bi bi-journals circulo"></i>3.2 - Correspondência entre o sistema e o mundo real</a>
-            <a href="#item3.3">
-                <i class="bi bi-journals circulo"></i>3.3 - Liberdade de controle fácil pro usuário</a>
-            <a href="#item3.4">
-                <i class="bi bi-journals circulo"></i>3.4 - Consistência e Padrões</a>
-            <a href="#item3.5">
-                <i class="bi bi-journals circulo"></i>3.5 - Prevenção de Erros</a>
-            <a href="#item3.6">
-                <i class="bi bi-journals circulo"></i>3.6 - Reconhecimento em vez de memorização</a>
-            <a href="#item3.7">
-                <i class="bi bi-journals circulo"></i>3.7 - Flexibilidade e Eficiência de Uso</a>
-            <a href="#item3.8">
-                <i class="bi bi-journals circulo"></i>3.8 - Estética e design minimalista</a>
-            <a href="#item3.9">
-                <i class="bi bi-journals circulo"></i>3.9 - Ajude os Usuários a Reconhecerem, Diagnosticarem e
-                Recuperarem-se de Erros</a>
-            <a href="#item3.10">
-                <i class="bi bi-journals circulo"></i>3.10 - Ajuda e Documentação</a>
+            <a href="#item03.1">
+                <i class="bi bi-journals circulo"></i>03.1 - Definição das Atividades e da Estrutura Analítica do
+                Projeto – EAP</a>
+            <a href="#item03.2">
+                <i class="bi bi-journals circulo"></i>03.2 -
+                Definição das Precedências das Atividades</a>
+            <a href="#item03.3">
+                <i class="bi bi-journals circulo"></i>03.3 - Liberdade de controle fácil pro usuário</a>
+            <a href="#item03.4">
+                <i class="bi bi-journals circulo"></i>03.4 - Cronograma e Diagrama de Dependências</a>
         </div>
 
         <!-- topico com Subtópico -->

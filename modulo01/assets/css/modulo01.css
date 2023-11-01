@@ -43,14 +43,11 @@ p.paragrafo {
   justify-content: flex-end;
 }
 
-/* ALERTS */
+/* ---------- ALERTS -------------------*/
 .alert {
   border: none;
+  font-family: "Raleway";
 }
-
-/* .alert .fa-bullseye{
-  color: white;
-} */
 
 .alert-success {
   color: #155724;
@@ -62,8 +59,8 @@ p.paragrafo {
   color: #155724;
 }
 
-[data-theme="dark"] .alert-success p{
-    color: #155724;
+[data-theme="dark"] .alert-success p {
+  color: #155724;
 }
 
 .alert-danger {
@@ -92,8 +89,20 @@ p.paragrafo {
   box-shadow: 1px 2px 9px rgba(86, 182, 247, 0.3);
 }
 
-/* ALERTS END*/
+[data-theme="dark"] .alert-warning p{
+  color: rgb(10, 10, 10);
+}
 
+.alert-warning {
+  background-color: #fdd347;
+  color: rgb(10, 10, 10);
+  box-shadow: 1px 2px 9px rgba(253, 211, 71, 0.3);
+}
+
+/*-----------------ALERTS END----------------------------*/
+
+
+/* ------------------- CAIXA INDICANDO ONDE DEVE SER CLICADO------------------ */
 .badge-warning {
   color: #fff !important;
   background-color: rgb(240, 169, 27) !important;
@@ -112,7 +121,10 @@ p.paragrafo {
   border-radius: 0.25rem;
 }
 
-/* CONFIGURÇÃO DO ACCORDION */
+/* ------------------- CAIXA INDICANDO ONDE DEVE SER CLICADO END------------------ */
+
+
+/* ------------------CONFIGURÇÃO DO ACCORDION -------------------------------------*/
 
 .accordion-button {
   font-family: "Raleway";
@@ -130,6 +142,7 @@ p.paragrafo {
   overflow-anchor: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, border-radius 0.15s ease;
 }
+
 
 /* .accordion-button:not(.collapsed) {
   color: black;
@@ -149,19 +162,26 @@ p.paragrafo {
 [data-theme="dark"] .accordion-body p {
   color: white;
 }
-/* FIM DA CONFIGURÇÃO DO ACCORDION */
 
-/* CONFIGURÇÃO DA TABELA (TÓPICO 2) */
-table th{
+/*----------------------- FIM DA CONFIGURÇÃO DO ACCORDION--------------------- */
+
+
+/* ------------------CONFIGURÇÃO DA TABELA (TÓPICO 2)--------------------------- */
+table th {
   font-family: "Raleway";
   text-align: center;
 }
 
-td{
+td {
   background-color: red;
 }
 
-[data-theme="dark"] .card-body{
+[data-theme="dark"] .card-body {
   background-color: #29292B;
 }
-/* FIM DA CONFIGURÇÃO DA TABELA (TÓPICO 2) */
+
+/*------------------- FIM DA CONFIGURÇÃO DA TABELA (TÓPICO 2) ------------------ */
+
+/* #img-teste{
+  width: 960%;
+} */

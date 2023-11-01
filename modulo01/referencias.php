@@ -92,9 +92,9 @@ include('layout/header.php');
                                 <a href="topico04.php" class="btn btn-outline-success" role="button"
                                     aria-pressed="true">
                                     <i class="fa-solid fa-chevron-left"></i> Voltar </a>
-                                <a href="topico01.php" class="btn btn-outline-success" role="button"
-                                    aria-pressed="true">Realizar a Atividade Avaliativa <i
-                                        class="fa-solid fa-chevron-right"></i></a>
+                                <a href="http://cursos.egp.ce.gov.br/mod/quiz/view.php?id="
+                                    class="btn btn-outline-success" role="button" aria-pressed="true">Realizar a
+                                    Atividade Avaliativa <i class="fa-solid fa-chevron-right"></i></a>
                             </div>
                         </div>
                     </div>

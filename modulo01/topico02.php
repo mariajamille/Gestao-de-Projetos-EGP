@@ -4,11 +4,6 @@
 <?php
 include('layout/header.php');
 ?>
-<!-- PLUGIN DO FADE IN -->
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-AOS.init();
-</script>
 
 <body>
 
@@ -320,7 +315,7 @@ AOS.init();
                         <!-- IMAGEM 03  -->
                         <div class="text-center img-01 scrool">
                             <div class="zoom">
-                                <a href="imags/Figura03.png" data-bs-toggle="modal" data-bs-target="#Imagem03">
+                                <a href="imgs/Figura03.png" data-bs-toggle="modal" data-bs-target="#Imagem03">
                                     <img src="imgs/Figura03.png" alt="Planejamento x Projetos x Operação">
                                 </a>
                             </div>
@@ -457,7 +452,8 @@ AOS.init();
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Diferença entre Projeto e Programas</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.1">02.1 - Diferença entre Projeto e Programas
+                        </h3>
                         <!-- subtítulo -->
 
                         <p class="scrool">Podemos, nesse momento, utilizar os conceitos definidos pelo <em><a
@@ -632,7 +628,7 @@ AOS.init();
                         <br>
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Os Ciclos de um Projeto</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.2">02.2 - Os Ciclos de um Projeto</h3>
                         <!-- subtítulo -->
 
                         <p class="scrool">Veremos, no decorrer da aula, que esses ciclos coincidem com o que os diversos
@@ -1078,7 +1074,7 @@ AOS.init();
                         <br>
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Ciclo de Vida de Projeto</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.3">02.3 - Ciclo de Vida de Projeto</h3>
                         <!-- subtítulo -->
 
                         <p class="scrool">Um projeto precisa apresentar, em cronograma, os dados temporais de quando
@@ -1317,7 +1313,7 @@ AOS.init();
                         <!-- Imagem 10- End (Audi)-->
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Origem de Projetos</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.4">02.4 - Origem de Projetos</h3>
                         <!-- subtítulo -->
 
                         <p> Os projetos se originam de várias fontes.</p>
@@ -1415,33 +1411,32 @@ AOS.init();
 
 
 
-
-
-
                     </div>
                 </div>
-        </section>
-        <!-- Botões de navegação -->
-        <div class="text-center">
-            <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
-                    class="fa-solid fa-chevron-left"></i> Voltar </a>
-            <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-                    class="fa-solid fa-chevron-right"></i></a>
-        </div>
-
-        <!-- BUTTON BACK TO TOP -->
-        <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
-        <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
-        <div id="back_to_top">
-            <div id="btn_back">
-                <i id="icon_up" class="fa-solid fa-arrow-up"></i>
             </div>
-        </div>
-        <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
+        </section>
+    </div>
+    <!-- Botões de navegação -->
+    <div class="text-center">
+        <a href="topico01.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+                class="fa-solid fa-chevron-left"></i> Voltar </a>
+        <a href="topico03.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                class="fa-solid fa-chevron-right"></i></a>
+    </div>
 
-        <?php
-        include('layout/footer.php');
-        ?>
+    <!-- BUTTON BACK TO TOP -->
+    <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
+    <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
+    <div id="back_to_top">
+        <div id="btn_back">
+            <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+        </div>
+    </div>
+    <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
+
+    <?php
+    include('layout/footer.php');
+    ?>
 
 
 </body>
