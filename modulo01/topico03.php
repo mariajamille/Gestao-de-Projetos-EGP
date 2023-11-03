@@ -151,7 +151,7 @@ include('layout/header.php');
                         <br>
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Plano do Projeto</h3>
+                        <h3 class="Subtopico fw-bolder scrool">Plano de Monitoramento e Avaliação</h3>
                         <!-- subtítulo -->
 
                         <p>É de fundamental importância para a Equipe de Projeto, a fim de garantir o sucesso do alcance
@@ -200,13 +200,10 @@ include('layout/header.php');
                         <!-- FIM DO CONTEUDO INICIO  -->
 
                         <!-- IMAGEM 11 -->
-
                         <div class="text-center img-01">
-                            <p class="TituloFigura FonteMenor text-secondary p-2"><strong>Figura 1:</strong>
-                                Descrição de cima</p>
-                            <div class="zoom">
+                            <div class="zoom" id="img-width">
                                 <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
-                                    <img src="imgs/Figura11.png" alt="Imagem que remete a organização" id="img-teste">
+                                    <img src="imgs/Figura11.png" class="img-fluid" alt="Imagem que remete a organização">
                                 </a>
                             </div>
                             <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Projeto de
@@ -218,10 +215,10 @@ include('layout/header.php');
                             aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div
                                 class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                <div class="modal-content w-75">
+                                <div class="modal-content w-100">
                                     <img class="img-fluid" src="imgs/Figura11.png" alt="Alt da imagem fica aqui">
                                 </div>
-                                <div class="modal-footer w-75 bg-light justify-content-center">
+                                <div class="modal-footer w-100 bg-light justify-content-center">
                                     <p class="text-secondary"><strong>Fonte:</strong>EAP do Projeto de Implantação do
                                         Escritório de Projetos da Cogerh. (Cogerh, 2012)</p>
                                 </div>
@@ -253,40 +250,28 @@ include('layout/header.php');
                         <p><strong>Pacote de Atividades/Miniprojetos</strong></p>
                         <br>
 
-                        <!--CAIXA DE TEXTO EXEMPLO-->
-                        <section class="container">
-                            <div class="accordion ">
-                                <section id="content">
-                                    <div class="caixaprincipal" id="tituloexemplo">
-                                        <div class="div_teste">
-                                            <div><i class="fa-regular fa-pen-to-square"></i></i> EXEMPLO </div>
-                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
-                                        </div>
-                                    </div> <!--caixa Principal-->
-                                    <div class="accordion-content" id="exemplo"><!--caixa secundaria-->
-                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
-                                        </p>
-                                        <div class="txt-caixasecundaria">Aquisição de Equipamentos é uma atividade que
-                                            poderá apresentar as seguintes tarefas:
+                        <div class="card scrool" style="border-color: #44833d;">
+                            <div class="card-body">
 
-                                            <!-- <p class="none">
-                                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Especificar os
-                                                    equipamentos;</li>
-                                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Analisar a
-                                                    melhor tecnologia disponível em relação ao equipamento;</li>
-                                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.3s"><i
-                                                        class="fa fa-bullseye CorVerdeClaroEstado"></i>
-                                                    Realizar cotação de fornecedores ou licitação.</li>
-</p> -->
-                                            <div>
-                                            </div>
-                                </section>
+                                <p><strong>Aquisição de Equipamentos é uma atividade que poderá apresentar as seguintes
+                                        tarefas:</strong></p>
+                                <!-- Lista de Movimento-->
+                                <div>
+                                    <ul class="list02">
+                                        <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
+                                                class="fa fa-bullseye CorVerdeClaroEstado"></i> Especificar os
+                                            equipamentos;</li>
+                                        <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
+                                                class="fa fa-bullseye CorVerdeClaroEstado"></i> Analisar a melhor
+                                            tecnologia disponível em relação ao equipamento;</li>
+                                        <li class="img-fluid wow fadeInLeft" data-wow-delay="1.3s"><i
+                                                class="fa fa-bullseye CorVerdeClaroEstado"></i>
+                                            Realizar cotação de fornecedores ou licitação.</li>
+                                    </ul>
+                                </div>
                             </div>
-                        </section>
-                        <!-- FIM DA CAIXA EXEMPLO-->
-
+                        </div>
+                        <br>
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
                         <section class="container">
@@ -304,7 +289,7 @@ include('layout/header.php');
                                         </p>
                                         <p class="txt-caixasecundaria"> Ao conhecermos detalhadamente o que devemos
                                             fazer, precisaremos saber em quanto tempo as atividades serão executadas e a
-                                            que custo.
+                                            que custo.<br>
                                             Para se fazer uma análise de viabilidade de projetos é necessário definir
                                             antecipadamente quanto será o tempo necessário para fazer determinada ação e
                                             qual será o custo a ser gerado.</p>
