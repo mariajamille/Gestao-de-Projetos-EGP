@@ -62,16 +62,18 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 }
 
 /* COLORS */
-.CorVerdeEstado{
+.CorVerdeEstado {
     color: #44833D;
 }
-[data-theme="dark"] .CorVerdeEstado{
+
+[data-theme="dark"] .CorVerdeEstado {
     color: white;
 }
 
-.CorLaranja{
+.CorLaranja {
     color: #f18519;
 }
+
 /* COLORS END */
 
 a {
@@ -79,7 +81,7 @@ a {
     color: #4a71f1;
 }
 
-strong{
+strong {
     font-weight: lighter;
 }
 
@@ -828,6 +830,22 @@ o estado inicial de height 0 manteria o texto aparecendo */
 .table {
     font-weight: lighter;
     font-size: 1.2rem;
+    font-family: "Raleway";
+}
+
+.table th {
+    font-family: "Raleway";
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table td {
+    vertical-align: middle
+}
+
+[data-theme="dark"] .table td {
+    background-color: #29292B;
+    color: white;
 }
 
 .bd {

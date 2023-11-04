@@ -48,15 +48,15 @@
         <div class="dropdown-container">
             <a href="topico02.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item02.1">
-                <i class="bi bi-journals circulo"></i>02.1 - Diferença entre Projeto e Programas</a>
             <a href="#item02.2">
-                <i class="bi bi-journals circulo"></i>02.2 -
-                Os Ciclos de um Projeto</a>
+                <i class="bi bi-journals circulo"></i>02.2 - Diferença entre Projeto e Programas</a>
             <a href="#item02.3">
-                <i class="bi bi-journals circulo"></i>02.3 - Ciclo de Vida de Projeto</a>
+                <i class="bi bi-journals circulo"></i>02.3 -
+                Os Ciclos de um Projeto</a>
             <a href="#item02.4">
-                <i class="bi bi-journals circulo"></i>02.4 - Origem de Projetos</a>
+                <i class="bi bi-journals circulo"></i>02.4 - Ciclo de Vida de Projeto</a>
+            <a href="#item02.5">
+                <i class="bi bi-journals circulo"></i>02.5 - Origem de Projetos</a>
         </div>
 
         <!-- topico com Subtópico -->
@@ -73,14 +73,12 @@
         <div class="dropdown-container">
             <a href="topico03.php">
                 <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item03.1">
-                <i class="bi bi-journals circulo"></i>03.1 - Definição das Atividades e da Estrutura Analítica do
-                Projeto – EAP</a>
             <a href="#item03.2">
-                <i class="bi bi-journals circulo"></i>03.2 -
-                Definição das Precedências das Atividades</a>
+                <i class="bi bi-journals circulo"></i>03.2 - Definição das Atividades e da Estrutura Analítica do
+                Projeto – EAP</a>
             <a href="#item03.3">
-                <i class="bi bi-journals circulo"></i>03.3 - Liberdade de controle fácil pro usuário</a>
+                <i class="bi bi-journals circulo"></i>03.3 -
+                Definição das Precedências das Atividades</a>
             <a href="#item03.4">
                 <i class="bi bi-journals circulo"></i>03.4 - Cronograma e Diagrama de Dependências</a>
         </div>

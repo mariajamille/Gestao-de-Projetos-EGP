@@ -447,7 +447,8 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA SAIBA MAIS  -->
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Diferença entre Projeto e Programas</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.2">02.2 - Diferença entre Projeto e Programas
+                        </h3>
                         <!-- subtítulo -->
 
                         <p class="scrool">Podemos, nesse momento, utilizar os conceitos definidos pelo <em><a
@@ -618,7 +619,7 @@ include('layout/header.php');
                         <br>
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Os Ciclos de um Projeto</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.3">02.3 - Os Ciclos de um Projeto</h3>
                         <!-- subtítulo -->
 
                         <p class="scrool">Veremos, no decorrer da aula, que esses ciclos coincidem com o que os diversos
@@ -908,7 +909,7 @@ include('layout/header.php');
                                 </div>
                             </div>
                         </div>
-                    <br><br>
+                        <br><br>
                         <!-- FIM Accordion Fase 02 - Begin  -->
 
 
@@ -1063,7 +1064,7 @@ include('layout/header.php');
                         <br>
 
                         <!-- subtítulo-->
-                        <h3 class="Subtopico fw-bolder scrool">Ciclo de Vida de Projeto</h3>
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.4"> 02.4 - Ciclo de Vida de Projeto</h3>
                         <!-- subtítulo -->
 
                         <p class="scrool">Um projeto precisa apresentar, em cronograma, os dados temporais de quando
@@ -1119,7 +1120,7 @@ include('layout/header.php');
                                 objetivos e definir a linha de ação necessária para alcançar os objetivos para os quais
                                 o projeto foi criado. Principais características:</p><br>
                             <div>
-                                <ul class="none Texto text-white">
+                                <ul class="none text-white">
                                     <li><i class="fa fa-bullseye CinzaEstado"></i> Construção progressiva da
                                         estruturação das tarefas no tempo e suas interdependências junto a aspectos
                                         financeiros;</li>
@@ -1164,7 +1165,7 @@ include('layout/header.php');
                                 necessário realizar alterações no plano, iniciando, assim, as mudanças necessárias.
                                 Principais características:</p><br>
                             <div>
-                                <ul class="none Texto text-white">
+                                <ul class="none text-white">
                                     <li><i class="fa fa-bullseye AzulEstadoEscuro"></i> Identificação de variações
                                         relacionadas ao planejamento, podendo-se atuar corretivamente na execução ou se
                                         adequar eventos futuros;</li>
@@ -1202,6 +1203,198 @@ include('layout/header.php');
                             sobreposição em várias situações. Caso o processo esteja dividido em fases, os grupos de
                             processos se inter-relacionam dentro de cada fase (PMBOK, 2015).</p>
                         <br>
+
+                        <!-- IMAGEM 09 -->
+                        <div class="text-center img-01">
+                            <div class="zoom" id="img-width">
+                                <a href="imgs/Figura09.png" data-bs-toggle="modal" data-bs-target="#Imagem09">
+                                    <img src="imgs/Figura09.png" class="img-fluid"
+                                        alt="Imagem que remete a organização">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 09: </strong>Gráfico</p>
+                        </div>
+
+                        <!-- Imagem - 09 -->
+                        <div class="modal fade text-center" id="Imagem09" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-100">
+                                    <img class="img-fluid" src="imgs/Figura09.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-100 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 09: </strong>Gráfico
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem 09 - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+                        <br>
+                        <p>A fase de monitoramento é bastante crítica, pois é nessa fase que identificamos se aquilo que
+                            foi planejado está sendo realizado com a qualidade especificada inicialmente, se existem
+                            possibilidades de realizar melhorias no decorrer do processo, evitando descaso através de
+                            ações corretivas no momento adequado. Caso isso não ocorra, haverá a possibilidade de
+                            surgirem novos custos que poderão inclusive inviabilizar o sucesso do projeto.</p>
+                        <br>
+
+                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                            </div>
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        </p>
+                                        <p class="txt-caixasecundaria">Dessa forma, podemos dizer que o ciclo de vida de
+                                            um projeto trata das etapas de início, planejamento, execução, monitoramento
+                                            e conclusão, reafirmando que um projeto é sempre temporário com datas de
+                                            início e fim previstas. Deve apresentar um planejamento consistente com a
+                                            realidade, buscar a previsibilidade de fazer aferições sobre o fim do
+                                            projeto, dependendo, obviamente, das externalidades e do bom desempenho do
+                                            monitoramento.</p>
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                        <br>
+                        <p>A elaboração de projetos delimita o escopo das atividades a serem executadas pelos
+                            prestadores de serviços ou fornecedores.</p>
+
+                        <p>Os instrumentos gráficos de gestão, como o cronograma e o orçamento são essenciais ao
+                            projeto, pois conseguimos visualizar de uma forma clara e mais eficiente se tivermos esses
+                            dados em planilhas, conforme ilustra a imagem 10.
+                        </p>
+                        <br>
+
+                        <!-- IMAGEM 10 -->
+                        <div class="text-center img-01">
+                            <div class="zoom" id="img-width">
+                                <a href="imgs/Figura10.png" data-bs-toggle="modal" data-bs-target="#Imagem10">
+                                    <img src="imgs/Figura10.png" class="img-fluid"
+                                        alt="Imagem que remete a organização">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 10: </strong> Planilha</p>
+                        </div>
+
+                        <!-- Imagem - 10 -->
+                        <div class="modal fade text-center" id="Imagem10" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-100">
+                                    <img class="img-fluid" src="imgs/Figura10.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-100 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Figura 10: </strong> Planilha
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem 10 - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+                        <br><br>
+
+                        <!-- subtítulo-->
+                        <h3 class="Subtopico fw-bolder scrool" id="item02.5"> 02.5 - Origem de Projetos</h3>
+                        <!-- subtítulo -->
+
+                        <p>Os projetos se originam de várias fontes.</p>
+                        <br>
+                        <!-- tabela -->
+                        <table class="table table-bordered  border-white ">
+                            <thead>
+                                <tr>
+                                    <th scope="col" class="text-white "
+                                        style="background-color:ForestGreen; text-align: center;">Necessidade do Negócio
+                                    </th>
+                                    <th scope="col" class="text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Obrigação legal</th>
+                                    <th scope="col" class="text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Demanda do mercado ou
+                                        da sociedade</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><i class="fa fa-arrow-right CorVerdeClaroEstado"></i> Melhoria de
+                                        eficiência<br /> <i class="fa fa-arrow-right CorVerdeClaroEstado"></i> Redução
+                                        de risco<br /> <i class="fa fa-arrow-right CorVerdeClaroEstado"></i> Avanço
+                                        tecnológico</td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th class="align-middle text-white "
+                                        style="background-color:ForestGreen; text-align: center;">Problema</th>
+                                    <td>
+                                        <p>Quando o problema já existe, temos a necessidade de tentar corrigi-lo.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white "
+                                        style="background-color:ForestGreen; text-align: center;">Uma ideia</th>
+                                    <td>
+                                        <p>No trabalho cotidiano da empresa, temos uma ideia para melhorar uma
+                                            determinada situação.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white "
+                                        style="background-color:ForestGreen; text-align: center; ">Uma oportunidade</th>
+                                    <td>
+                                        <p>Através de editais que sempre surgem, principalmente na área pública.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="table">
+                            <tbody>
+                                <tr class="Exemplo">
+                                    <th class=" align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center; width:180px;">
+                                        <strong>Síntese</strong> </th>
+                                    <td>
+                                        <p><i class="fa fa-bullseye CorVerdeClaroEstado"></i> Os projetos são estudos
+                                            sistematizados sobre as diversas variáveis inerentes a alguma ideia, a
+                                            alguma oportunidade ou a algum problema a ser explorado em busca de
+                                            soluções.</p>
+                                        <p><i class="fa fa-bullseye CorVerdeClaroEstado"></i> Os projetos também são
+                                            úteis ao permitirem aos administradores uma análise profunda de todos os
+                                            aspectos positivos e negativos relacionados aos estudos para tomada de
+                                            decisão – projeto entendido como uma ferramenta de gestão.</p>
+                                        <p><i class="fa fa-bullseye CorVerdeClaroEstado"></i> Os projetos devem ser
+                                            simultaneamente temporários, singulares, e devem utilizar recursos humanos,
+                                            financeiros e materiais.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
 
 
 

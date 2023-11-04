@@ -183,8 +183,8 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item03.1">
-                            03.1 - Definição das Atividades e da Estrutura Analítica do Projeto – EAP</h3>
+                        <h3 class="Subtopico fw-bolder" id="item03.2">
+                            03.2 - Definição das Atividades e da Estrutura Analítica do Projeto – EAP</h3>
                         <!-- subtopico -->
                         <p>Essa etapa consiste em organizar as atividades a serem executadas sob a forma de miniprojetos
                             ou sob a forma de pacotes de atividades.</p>
@@ -197,16 +197,15 @@ include('layout/header.php');
                             conhecido como EPC.</p>
                         <br>
 
-                        <!-- FIM DO CONTEUDO INICIO  -->
-
                         <!-- IMAGEM 11 -->
                         <div class="text-center img-01">
                             <div class="zoom" id="img-width">
                                 <a href="imgs/Figura11.png" data-bs-toggle="modal" data-bs-target="#Imagem11">
-                                    <img src="imgs/Figura11.png" class="img-fluid" alt="Imagem que remete a organização">
+                                    <img src="imgs/Figura11.png" class="img-fluid"
+                                        alt="Imagem que remete a organização">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Fonte:</strong>Projeto de
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 11: </strong>Projeto de
                                 Implantação</p>
                         </div>
 
@@ -297,6 +296,222 @@ include('layout/header.php');
                                 </section>
                         </section>
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
+                        <br><br>
+
+                        <!-- subtopico -->
+                        <h3 class="Subtopico fw-bolder" id="item03.3">
+                            03.3 - Definição das Precedências das Atividades</h3>
+                        <!-- subtopico -->
+
+                        <p>Na definição das principais atividades de um projeto, é necessário analisar se existe alguma
+                            relação de dependência e quais atividades são precedentes.</p><br>
+                        <p>Retomando o exemplo do Projeto da Construção de um prédio:</p><br>
+                        <p class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
+                                class="fa fa-bullseye CorVerdeClaroEstado"></i> Algumas licenças para construção só
+                            poderão ser emitidas, após a aprovação dos projetos.</p><br>
+                        <p>É importante perceber esse conceito de dependência quando da elaboração da estimativa de
+                            prazos, porque é possível otimizar o prazo de uma atividade que não tenha dependência com
+                            outra, podendo ser realizada ao mesmo tempo. E, no caso de atividades que tenham
+                            dependência, é necessário que se estabeleça um tempo razoável para execução de cada
+                            atividade.</p><br>
+                        <p>Observe a imagem abaixo:</p>
+                        <br>
+
+                        <!-- IMAGEM 12 -->
+                        <div class="text-center img-01">
+                            <div class="zoom" id="img-width">
+                                <a href="imgs/Figura12.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
+                                    <img src="imgs/Figura12.png" class="img-fluid"
+                                        alt="Imagem que remete a organização">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 12: </strong>Diagrama</p>
+                        </div>
+
+                        <!-- Imagem - 12 -->
+                        <div class="modal fade text-center" id="Imagem12" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-100">
+                                    <img class="img-fluid" src="imgs/Figura12.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-100 bg-light justify-content-center">
+                                    <p class="text-secondary">Figura 12: </strong>Diagrama</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem 12 - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+                        <br>
+                        <p>A partir da identificação e da sequência das atividades, poderemos saber quais atividades
+                            podem ser desenvolvidas em paralelo e quais atividades impactam nas demais.</p>
+                        <br><br>
+
+                        <!-- subtopico -->
+                        <h3 class="Subtopico fw-bolder" id="item03.3">
+                            03.4 - Cronograma e Diagrama de Dependências</h3>
+                        <!-- subtopico -->
+
+                        <p>Cronograma é um recurso gráfico de gerenciamento de atividades e de etapas a serem cumpridas
+                            na execução de projetos em um prazo previamente planejado.</p>
+                        <p>Os elementos básicos de um cronograma são:</p>
+                        <br>
+                        <table class="table">
+                            <tbody>
+                                <tr>
+                                    <th class="align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center; width: 10px;">Descrição
+                                        das etapas a serem executadas</th>
+                                    <td>
+                                        <p>Momento em que se entende o que se vai fazer e quais atividades devem ser
+                                            realizadas.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Responsabilidade pela
+                                        administração e pela execução de cada uma das etapas</th>
+                                    <td>
+                                        <p>Determina-se quem será o responsável por fazer cada atividade específica.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Identificação para
+                                        unidades de tempo, para marcação das datas de início e de término de cada etapa
+                                    </th>
+                                    <td>
+                                        <p>Planeja-se o tempo, definindo-o com relação à quantidade de dias, de semanas,
+                                            de meses, de anos..</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Duração estimada para
+                                        a realização de cada etapa</th>
+                                    <td>
+                                        <p>Define-se o período de duração necessário para o desenvolvimento de cada
+                                            atividade.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Legenda gráfica de
+                                        linhas e símbolos</th>
+                                    <td>
+                                        <p>É usada para registrar os prazos de duração relevantes e estimados das etapas
+                                            e também para marcar a evolução de cada etapa.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <th class="align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center;">Identificação das
+                                        atividades, das tarefas correspondentes, e das linhas horizontais</th>
+                                    <td>
+                                        <p>Percebe-se com essa ação o tempo e o que está em dia. Existem várias
+                                            possibilidades de se fazer um cronograma.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <br>
+
+
+                        <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
+                        <section class="container">
+                            <div class="accordion ">
+                                <section id="content">
+                                    <div class="caixaprincipal" id="titulofiqueatento">
+                                        <div class="div_teste">
+                                            <div><i class="fa-solid fa-person-circle-exclamation"></i> FIQUE ATENTO
+                                            </div>
+                                            <i id="icon-pointer" class="fa-regular fa-hand-pointer fa-beat"></i>
+                                        </div>
+                                    </div> <!--caixa Principal-->
+                                    <div class="accordion-content" id="fiqueatento"><!--caixa secundaria-->
+                                        <p class="txt-aviso"><strong class="opacity-75"> Passe o mouse acima </strong>
+                                        </p>
+                                        <p class="txt-caixasecundaria">Para elaborar um cronograma, é recomendável a
+                                            utilização de um diagrama de dependência, pois permite uma melhor
+                                            visualização das relações de dependência entre atividades, facilitando a
+                                            tomada de decisão entre prazos e custos em projetos.</p>
+                                    </div>
+                                </section>
+                        </section>
+                        <!-- FIM DA CAIXA FIQUE ATENTO -->
+
+                        <!-- IMAGEM 13 -->
+                        <div class="text-center img-01">
+                            <div class="zoom" id="img-width">
+                                <a href="imgs/Figura13.png" data-bs-toggle="modal" data-bs-target="#Imagem13">
+                                    <img src="imgs/Figura13.png" class="img-fluid"
+                                        alt="Imagem que remete a organização">
+                                </a>
+                            </div>
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 13: </strong>Estágios</p>
+                        </div>
+
+                        <!-- Imagem - 13 -->
+                        <div class="modal fade text-center" id="Imagem13" tabindex="-1"
+                            aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div
+                                class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                <div class="modal-content w-100">
+                                    <img class="img-fluid" src="imgs/Figura13.png" alt="Alt da imagem fica aqui">
+                                </div>
+                                <div class="modal-footer w-100 bg-light justify-content-center">
+                                    <p class="text-secondary"><strong>Fonte:</strong>Curso Gestão de Projeto ENAP, 2014
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Imagem 13 - End-->
+
+                        <!-- FIM DA IMAGEM NO SITE  -->
+
+                        <br><br>
+                        <table class="table">
+                            <tbody>
+                                <tr class="Exemplo">
+                                    <th class=" align-middle text-white"
+                                        style="background-color:ForestGreen; text-align: center; ">
+                                        <strong>Síntese</strong> </th>
+                                    <td>
+                                        <p>A elaboração de um projeto consiste em sistematizar os possíveis eventos
+                                            presentes num estudo exploratório específico em etapas. Essas etapas podem
+                                            se juntar e formar o Plano de Projetos (PP).</p>
+                                        <p>O PP é composto de três componentes básicos:</p>
+                                        <p><i class="fa fa-bullseye CorVerdeClaroEstado"></i> Escopo;</p>
+                                        <p><i class="fa fa-bullseye CorVerdeClaroEstado"></i> Plano de Ação; e</p>
+                                        <p><i class="fa fa-bullseye CorVerdeClaroEstado"></i> Plano de Monitoramento.
+                                        </p>
+                                        <p>É importante a utilização de cronogramas que apresentem a identificação das
+                                            atividades relacionadas ao projeto e à distribuição no tempo.</p>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+
+
+
 
 
 

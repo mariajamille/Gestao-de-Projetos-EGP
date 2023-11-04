@@ -63,6 +63,10 @@ p.paragrafo {
   color: #155724;
 }
 
+.alert-success .list02 {
+  color: #155724;
+}
+
 .alert-danger {
   background-color: #f7616e;
   color: #fff;
@@ -167,14 +171,7 @@ p.paragrafo {
 
 
 /* ------------------CONFIGURÇÃO DA TABELA (TÓPICO 2)--------------------------- */
-table th {
-  font-family: "Raleway";
-  text-align: center;
-}
 
-td {
-  background-color: red;
-}
 
 [data-theme="dark"] .card-body {
   background-color: #29292B;
