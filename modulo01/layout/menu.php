@@ -34,8 +34,8 @@
                 Organizações</a>
         </div>
 
-         <!-- topico com Subtópico -->
-         <button class="dropdown-btn">
+        <!-- topico com Subtópico -->
+        <button class="dropdown-btn">
             <li class="menu">
                 <a data-valor="topico02.php">
                     <span class="icon space"><i class="bi bi-2-circle"></i></span>
@@ -83,25 +83,13 @@
                 <i class="bi bi-journals circulo"></i>03.4 - Cronograma e Diagrama de Dependências</a>
         </div>
 
-        <!-- topico com Subtópico -->
-        <button class="dropdown-btn">
-            <li class="menu" id="topico04">
-                <a data-valor="topico04.php">
-                    <span class="icon space"><i class="bi bi-4-circle"></i></span>
-                    <span class="txt">A Importância da Gestão de Projetos na Administração Pública</span>
-                    <i class="bi bi-caret-down-fill barra-sub"></i>
-                </a>
-            </li>
-        </button>
-        <!-- subtopicos aqui  -->
-        <div class="dropdown-container">
+        <li class="menu">
             <a href="topico04.php">
-                <i class="bi bi-journals circulo"></i>Início</a>
-            <a href="#item4.1">
-                <i class="bi bi-journals circulo"></i>4.1 - Por que avaliar?</a>
-            <a href="#item4.2">
-                <i class="bi bi-journals circulo"></i>4.2 - Como Avaliar</a>
-        </div>
+                <span class="icon space"><i class="bi bi-4-circle"></i></span>
+                <span class="txt">A Importância da Gestão de Projetos na Administração Pública</span>
+            </a>
+        </li>
+
 
         <li class="menu">
             <a href="referencias.php">

@@ -346,7 +346,7 @@ include('layout/header.php');
                         <br>
                         <!-- LISTA EM MOVIMENTO-->
                         <div>
-                            <ul class="list02">
+                            <ul class="list02 scrool">
                                 <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
                                         class="fa fa-bullseye CorVerdeEstado"></i> Análise do ambiente;</li>
                                 <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
@@ -452,6 +452,7 @@ include('layout/header.php');
                     </div>
                 </div>
         </section>
+    </div>
         <!-- Botões de navegação -->
         <div class="text-center">
             <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i

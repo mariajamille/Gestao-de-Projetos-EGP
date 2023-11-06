@@ -66,12 +66,20 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     color: #44833D;
 }
 
+[data-theme="dark"] hr{
+    color: white;
+}
+
 [data-theme="dark"] .CorVerdeEstado {
     color: white;
 }
 
 .CorLaranja {
     color: #f18519;
+}
+
+.accordion-header strong{
+    font-size: 1.1rem;
 }
 
 /* COLORS END */
@@ -90,7 +98,6 @@ strong {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
-    transition: 0.1s;
 }
 
 body {
@@ -252,6 +259,8 @@ ul li.menu a:hover {
 /* (transition) no CONTEÚDO PRINCIPAL  */
 .all-conteudo {
     transition: 0.1s;
+    display: flex;
+    text-align: justify;
 }
 
 .menulateral:hover~.all-conteudo {
@@ -352,7 +361,7 @@ ul li.menu a:hover {
     text-decoration: none;
     color: #44833D;
     width: 100%;
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 0.7rem;
     cursor: pointer;
     position: relative;

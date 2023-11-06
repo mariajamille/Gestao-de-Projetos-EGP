@@ -27,14 +27,14 @@ include('layout/header.php');
                     <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
-                        <h2 class="Titulo fw-bolder">03 - Elaboração de Projeto</h2><br>
+                        <h2 class="Titulo fw-bolder scrool">03 - Elaboração de Projeto</h2><br>
 
                         <div class="bd scrool">
-                            <p><strong>Objetivo:</strong></p>
+                            <p class="scrool"><strong>Objetivo:</strong></p>
 
                             <!-- Lista de Movimento-->
                             <div>
-                                <ul class="list02">
+                                <ul class="list02 scrool">
                                     <li class="img-fluid wow fadeInLeft " data-wow-delay="0.3s"><i
                                             class=" fa fa-arrow-right CorLaranja"></i> Interpretar o significado de
                                         Plano do Projeto; </li>
@@ -65,8 +65,8 @@ include('layout/header.php');
                         <p>O papel importante nesse momento é conhecer os principais componentes do plano de um projeto
                             e como elaborar a sua estruturação.</p>
 
-                        <div class="bd-callout bd-callout-success">
-                            <p class="scrool">
+                        <div class="bd-callout bd-callout-success scrool">
+                            <p>
                                 "Plano do Projeto deve ser estruturado a partir de três componentes básicos: Escopo,
                                 Plano de Ação e Plano de Monitoramento."
                             <p class="text-end">(MOURA ; BARBOSA 2008, p. 42) –</p>
@@ -78,12 +78,12 @@ include('layout/header.php');
                         <h3 class="Subtopico fw-bolder scrool">Escopo</h3>
                         <!-- subtítulo -->
 
-                        <p>A declaração do escopo do projeto visa descrever com clareza o produto final ou o serviço que
+                        <p class="scrool">A declaração do escopo do projeto visa descrever com clareza o produto final ou o serviço que
                             deverá ser feito. Por sua vez, ele é composto pelos seguintes elementos:</p>
 
                         <!-- Lista de Movimento-->
                         <div>
-                            <ul class="list02">
+                            <ul class="list02 scrool">
                                 <li class="img-fluid wow fadeInLeft " data-wow-delay="0.3s"><i
                                         class=" fa fa-bullseye CorVerdeEstado"></i> Definição do problema ou
                                     situação geradora; </li>
@@ -107,26 +107,26 @@ include('layout/header.php');
                         <h3 class="Subtopico fw-bolder scrool">Plano de Ação</h3>
                         <!-- subtítulo -->
 
-                        <p>É um documento que apresenta de forma estruturada todos os procedimentos e os recursos
+                        <p class="scrool">É um documento que apresenta de forma estruturada todos os procedimentos e os recursos
                             necessários para a execução do escopo do projeto.</p>
                         <p>Fazem parte do Plano de Ação os seguintes elementos:</p>
                         <br>
 
-                        <div class="alert alert-primary" role="alert">
+                        <div class="alert alert-primary scrool" role="alert">
                             <p><strong>Desdobramento de atividades e tarefas</strong> </p>
                             <p>Quais as atividades que devem ser realizadas para concluir o escopo estabelecido?</p>
                         </div>
                         <!--Fim Alerta -->
                         <!--Alerta -->
 
-                        <div class="alert alert-warning" role="alert">
+                        <div class="alert alert-warning scrool" role="alert">
                             <p><strong>Estimativa de prazos</strong> </p>
                             <p>Qual a duração de cada atividade e o impacto no conjunto do escopo?</p>
                         </div>
                         <!--Fim Alerta -->
                         <!--Alerta -->
 
-                        <div class="alert alert-success" role="alert">
+                        <div class="alert alert-success scrool" role="alert">
                             <p><strong>Estimativa de custos e recursos</strong> </p>
                             <p>Qual o custo econômico e financeiro de cada atividade? Quais os recursos e os tipos
                                 envolvidos para a realização de cada atividade?</p>
@@ -134,7 +134,7 @@ include('layout/header.php');
                         <!--Fim Alerta -->
                         <!--Alerta -->
 
-                        <div class="alert alert-info" role="alert">
+                        <div class="alert alert-info scrool" role="alert">
                             <p><strong>Rede de tarefas</strong> </p>
                             <p>A rede de tarefas, ou cronograma de rede, visa organizar as tarefas em ordem de sequência
                                 e de dependência. Quais as tarefas que devem ser realizadas primeiro? Qual o impacto do
@@ -143,7 +143,7 @@ include('layout/header.php');
                         <!--Fim Alerta -->
                         <!--Alerta -->
 
-                        <div class="alert alert-danger" role="alert">
+                        <div class="alert alert-danger scrool" role="alert">
                             <p><strong>Cronograma</strong> </p>
                             <p>Disposição das atividades e dos prazos de execução, de forma gráfica.</p>
                         </div>
@@ -154,17 +154,17 @@ include('layout/header.php');
                         <h3 class="Subtopico fw-bolder scrool">Plano de Monitoramento e Avaliação</h3>
                         <!-- subtítulo -->
 
-                        <p>É de fundamental importância para a Equipe de Projeto, a fim de garantir o sucesso do alcance
+                        <p class="scrool">É de fundamental importância para a Equipe de Projeto, a fim de garantir o sucesso do alcance
                             dos objetivos propostos no Plano do Escopo e a execução do projeto.</p>
-                        <p>O Plano de Monitoramento e Avaliação é um documento que contém os procedimentos necessários
+                        <p class="scrool">O Plano de Monitoramento e Avaliação é um documento que contém os procedimentos necessários
                             para o acompanhamento e a avaliação sistemática da execução do projeto e dos resultados
                             alcançados. Reporta-se à forma e a quando e como vai ser feito esse acompanhamento. Além
                             disso, indica a qualidade requerida e os parâmetros de qualidade.</p>
-                        <p>Os elementos do Plano de Monitoramento e Avaliação são: </p>
+                        <p class="scrool">Os elementos do Plano de Monitoramento e Avaliação são: </p>
                         <br>
                         <!-- Lista de Movimento-->
                         <div>
-                            <ul class="list02">
+                            <ul class="list02 scrool">
                                 <li class="img-fluid wow fadeInLeft " data-wow-delay="0.3s"><i
                                         class=" fa fa-arrow-right CorVerdeEstado"></i> Matriz de Resultados e
                                     Serviços/Produtos; </li>
@@ -183,7 +183,7 @@ include('layout/header.php');
 
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item03.2">
+                        <h3 class="Subtopico fw-bolder scrool" id="item03.2">
                             03.2 - Definição das Atividades e da Estrutura Analítica do Projeto – EAP</h3>
                         <!-- subtopico -->
                         <p>Essa etapa consiste em organizar as atividades a serem executadas sob a forma de miniprojetos
@@ -227,10 +227,10 @@ include('layout/header.php');
 
                         <!-- FIM DA IMAGEM NO SITE  -->
 
-                        <p><strong>Algumas atividades:</strong></p>
+                        <p class="scrool"><strong>Algumas atividades:</strong></p>
                         <!-- Lista de Movimento-->
                         <div>
-                            <ul class="list02">
+                            <ul class="list02 scrool">
                                 <li class="img-fluid wow fadeInLeft " data-wow-delay="0.3s"><i
                                         class=" fa fa-bullseye CorVerdeEstado"></i> Elaborar e registrar projetos;
                                 </li>
@@ -246,17 +246,17 @@ include('layout/header.php');
                             </ul>
                         </div>
                         <br>
-                        <p><strong>Pacote de Atividades/Miniprojetos</strong></p>
+                        <p class="scrool"><strong>Pacote de Atividades/Miniprojetos</strong></p>
                         <br>
 
                         <div class="card scrool" style="border-color: #44833d;">
                             <div class="card-body">
 
-                                <p><strong>Aquisição de Equipamentos é uma atividade que poderá apresentar as seguintes
+                                <p class="scrool"><strong>Aquisição de Equipamentos é uma atividade que poderá apresentar as seguintes
                                         tarefas:</strong></p>
                                 <!-- Lista de Movimento-->
                                 <div>
-                                    <ul class="list02">
+                                    <ul class="list02 scrool">
                                         <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
                                                 class="fa fa-bullseye CorVerdeClaroEstado"></i> Especificar os
                                             equipamentos;</li>
@@ -273,7 +273,7 @@ include('layout/header.php');
                         <br>
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container scrool">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -299,26 +299,26 @@ include('layout/header.php');
                         <br><br>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item03.3">
+                        <h3 class="Subtopico fw-bolder scrool" id="item03.3">
                             03.3 - Definição das Precedências das Atividades</h3>
                         <!-- subtopico -->
 
-                        <p>Na definição das principais atividades de um projeto, é necessário analisar se existe alguma
+                        <p class="scrool">Na definição das principais atividades de um projeto, é necessário analisar se existe alguma
                             relação de dependência e quais atividades são precedentes.</p><br>
-                        <p>Retomando o exemplo do Projeto da Construção de um prédio:</p><br>
-                        <p class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
+                        <p class="scrool">Retomando o exemplo do Projeto da Construção de um prédio:</p><br>
+                        <p class="scrool"><i
                                 class="fa fa-bullseye CorVerdeClaroEstado"></i> Algumas licenças para construção só
                             poderão ser emitidas, após a aprovação dos projetos.</p><br>
-                        <p>É importante perceber esse conceito de dependência quando da elaboração da estimativa de
+                        <p class="scrool">É importante perceber esse conceito de dependência quando da elaboração da estimativa de
                             prazos, porque é possível otimizar o prazo de uma atividade que não tenha dependência com
                             outra, podendo ser realizada ao mesmo tempo. E, no caso de atividades que tenham
                             dependência, é necessário que se estabeleça um tempo razoável para execução de cada
                             atividade.</p><br>
-                        <p>Observe a imagem abaixo:</p>
+                        <p class="scrool">Observe a imagem abaixo:</p>
                         <br>
 
                         <!-- IMAGEM 12 -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="zoom" id="img-width">
                                 <a href="imgs/Figura12.png" data-bs-toggle="modal" data-bs-target="#Imagem12">
                                     <img src="imgs/Figura12.png" class="img-fluid"
@@ -346,20 +346,20 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <br>
-                        <p>A partir da identificação e da sequência das atividades, poderemos saber quais atividades
+                        <p class="scrool">A partir da identificação e da sequência das atividades, poderemos saber quais atividades
                             podem ser desenvolvidas em paralelo e quais atividades impactam nas demais.</p>
                         <br><br>
 
                         <!-- subtopico -->
-                        <h3 class="Subtopico fw-bolder" id="item03.3">
+                        <h3 class="Subtopico fw-bolder scrool" id="item03.4">
                             03.4 - Cronograma e Diagrama de Dependências</h3>
                         <!-- subtopico -->
 
-                        <p>Cronograma é um recurso gráfico de gerenciamento de atividades e de etapas a serem cumpridas
+                        <p class="scrool">Cronograma é um recurso gráfico de gerenciamento de atividades e de etapas a serem cumpridas
                             na execução de projetos em um prazo previamente planejado.</p>
-                        <p>Os elementos básicos de um cronograma são:</p>
+                        <p class="scrool">Os elementos básicos de um cronograma são:</p>
                         <br>
-                        <table class="table">
+                        <table class="table scrool">
                             <tbody>
                                 <tr>
                                     <th class="align-middle text-white"
@@ -436,7 +436,7 @@ include('layout/header.php');
 
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
-                        <section class="container">
+                        <section class="container scrool">
                             <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
@@ -459,7 +459,7 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <!-- IMAGEM 13 -->
-                        <div class="text-center img-01">
+                        <div class="text-center img-01 scrool">
                             <div class="zoom" id="img-width">
                                 <a href="imgs/Figura13.png" data-bs-toggle="modal" data-bs-target="#Imagem13">
                                     <img src="imgs/Figura13.png" class="img-fluid"
@@ -488,7 +488,7 @@ include('layout/header.php');
                         <!-- FIM DA IMAGEM NO SITE  -->
 
                         <br><br>
-                        <table class="table">
+                        <table class="table scrool">
                             <tbody>
                                 <tr class="Exemplo">
                                     <th class=" align-middle text-white"
