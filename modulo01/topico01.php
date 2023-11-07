@@ -33,15 +33,12 @@ include('layout/header.php');
                         <div class="bd scrool">
                             <p class="fw-semibold">Objetivos:</p>
                             <ul class="list02">
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                        class="fa fa-arrow-right CorLaranja"></i> Apresentar a noção básica de
-                                    planejamento estratégico e sua importância para as organizações;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                        class="fa fa-arrow-right CorLaranja"></i> Identificar que a materialização do
+                                <li><i class="fa fa-arrow-right CorLaranja"></i> Apresentar a noção básica de
+                                    planejamento estratégico e sua importância para as organizações;</li><br>
+                                <li><i class="fa fa-arrow-right CorLaranja"></i> Identificar que a materialização do
                                     planejamento estratégico ocorre de maneira mais efetiva por meio da implementação de
-                                    projetos;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
-                                        class="fa fa-arrow-right CorLaranja"></i> Reconhecer que os projetos são os
+                                    projetos;</li><br>
+                                <li><i class="fa fa-arrow-right CorLaranja"></i> Reconhecer que os projetos são os
                                     viabilizadores das mudanças nas organizações.</li>
                             </ul>
                         </div><br>
@@ -73,19 +70,14 @@ include('layout/header.php');
                         <!-- LISTA EM MOVIMENTO-->
                         <div>
                             <ul class="list02 scrool">
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                        class="fa fa-bullseye"></i> A identificação de necessidades;
+                                <li><i class="fa fa-bullseye"></i> A identificação de necessidades;
                                 </li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> O desenvolvimento de um plano de
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> O desenvolvimento de um plano de
                                     ação;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> O controle de mudanças;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.3s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> A garantia da qualidade para
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> O controle de mudanças;</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> A garantia da qualidade para
                                     geração de resultados;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.6s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> A busca constante de um ponto de
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> A busca constante de um ponto de
                                     equilíbrio entre a estratégia, ou seja, os objetivos identificados como os
                                     prioritários a serem atendidos, os processos, que envolvem o melhor desenho da
                                     rotina a ser incorporada no trabalho da organização, e os projetos, que passam a
@@ -105,25 +97,19 @@ include('layout/header.php');
                                 competir e a escolha do que não fazer, baseada nas forças competitivas."
                             <p class="text-end">(PORTER, 2005, p.156) –</p>
                             </p>
-                        </div>
+                        </div><br>
                         <p class="scrool">Assim para uma estratégia corporativa algumas palavras/conceitos precisam ser
                             alinhados, tais
                             como:</p>
                         <!-- LISTA EM MOVIMENTO-->
                         <div>
                             <ul class="list02 scrool">
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Meio ambiente;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.6s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Metas/objetivos;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="0.9s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Negócio;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.3s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Recursos;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.6s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Oposição/concorrência;</li>
-                                <li class="img-fluid wow fadeInLeft" data-wow-delay="1.9s"><i
-                                        class="fa fa-bullseye CorVerdeClaroEstado"></i> Atividades críticas/ações.</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> Meio ambiente;</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> Metas/objetivos;</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> Negócio;</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> Recursos;</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> Oposição/concorrência;</li>
+                                <li><i class="fa fa-bullseye CorVerdeEstado"></i> Atividades críticas/ações.</li>
                             </ul>
                         </div>
                         <br>

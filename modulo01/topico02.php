@@ -41,16 +41,12 @@ include('layout/header.php');
                             <!-- Lista de Movimento-->
                             <div>
                                 <ul class="list02 scrool">
-                                    <li class=" wow fadeInLeft" data-wow-delay="0.3s"><i
-                                            class="fa fa-arrow-right CorLaranja"></i> Explicar o que é projeto; </li>
-                                    <li class=" wow fadeInLeft" data-wow-delay="0.6s"><i
-                                            class="fa fa-arrow-right CorLaranja"></i> Diferenciar projetos de programas;
+                                    <li><i class="fa fa-arrow-right CorLaranja"></i> Explicar o que é projeto;</li>
+                                    <li><i class="fa fa-arrow-right CorLaranja"></i> Diferenciar projetos de programas;
                                     </li>
-                                    <li class=" wow fadeInLeft" data-wow-delay="0.9s"><i
-                                            class="fa fa-arrow-right CorLaranja"></i> Explicar as três características
+                                    <li><i class="fa fa-arrow-right CorLaranja"></i> Explicar as três características
                                         essenciais ao projeto (tríade);</li>
-                                    <li class=" wow fadeInLeft" data-wow-delay="1.3s"><i
-                                            class="fa fa-arrow-right CorLaranja"></i> Identificar as fases do estágio do
+                                    <li><i class="fa fa-arrow-right CorLaranja"></i> Identificar as fases do estágio do
                                         ciclo de vida do projeto.</li>
                                 </ul>
                             </div>
@@ -920,92 +916,89 @@ include('layout/header.php');
                             antigas, dentre eles:</p>
                         <br>
 
-                            <div class="row scrool">
-                                <div class="col-md-4 col-sm-12">
-                                    <!-- IMAGEM 05  -->
-                                    <div class="text-center img-01 scrool">
-                                        <div class="zoom">
-                                            <a href="imags/Figura05.png" data-bs-toggle="modal"
-                                                data-bs-target="#Imagem05">
-                                                <img src="imgs/Figura05.png" alt="Pirâmides" id="teste">
-                                            </a>
-                                        </div>
-                                        <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 05 -
-                                            </strong>Pirâmides</p>
+                        <div class="row scrool">
+                            <div class="col-md-4 col-sm-12">
+                                <!-- IMAGEM 05  -->
+                                <div class="text-center img-01 scrool">
+                                    <div class="zoom">
+                                        <a href="imags/Figura05.png" data-bs-toggle="modal" data-bs-target="#Imagem05">
+                                            <img src="imgs/Figura05.png" alt="Pirâmides" id="teste">
+                                        </a>
                                     </div>
-
-                                    <!-- Imagem 05 - MODAL (Audi)-->
-                                    <div class="modal fade text-center" id="Imagem05" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div
-                                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                            <div class="modal-content w-75">
-                                                <img class="img-fluid" src="imgs/Figura05.png" alt="Pirâmides">
-                                            </div>
-                                            <div class="modal-footer w-75 bg-light justify-content-center">
-                                                <p class="text-secondary"><strong>Fonte:</strong> Pixabay</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!-- Imagem 05 - End  (Audi)-->
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 05 -
+                                        </strong>Pirâmides</p>
                                 </div>
-                                <div class="col-md-4 col-sm-12">
-                                    <!-- IMAGEM 06  -->
-                                    <div class="text-center img-01 scrool">
-                                        <div class="zoom">
-                                            <a href="imags/Figura06.png" data-bs-toggle="modal"
-                                                data-bs-target="#Imagem06">
-                                                <img src="imgs/Figura06.png" alt="Coliseu de Roma">
-                                            </a>
-                                        </div>
-                                        <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 06 -
-                                            </strong>Coliseu de Roma</p>
-                                    </div>
 
-                                    <!-- Imagem 06 - MODAL (Audi)-->
-                                    <div class="modal fade text-center" id="Imagem06" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div
-                                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                            <div class="modal-content w-75">
-                                                <img class="img-fluid" src="imgs/Figura06.png" alt="Coliseu de Roma">
-                                            </div>
-                                            <div class="modal-footer w-75 bg-light justify-content-center">
-                                                <p class="text-secondary"><strong>Fonte:</strong> Pixabay</p>
-                                            </div>
+                                <!-- Imagem 05 - MODAL (Audi)-->
+                                <div class="modal fade text-center" id="Imagem05" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs/Figura05.png" alt="Pirâmides">
+                                        </div>
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Fonte:</strong> Pixabay</p>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Imagem 06 - End  (Audi)-->
-                                <div class="col-md-4 col-sm-12">
-                                    <!-- IMAGEM 07  -->
-                                    <div class="text-center img-01 scrool">
-                                        <div class="zoom w-100">
-                                            <a href="imags/Figura07.png" data-bs-toggle="modal"
-                                                data-bs-target="#Imagem07">
-                                                <img src="imgs/Figura07.png" alt="Muralha da China">
-                                            </a>
-                                        </div>
-                                        <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 07 -
-                                            </strong>Muralha da China</p>
+                                <!-- Imagem 05 - End  (Audi)-->
+                            </div>
+                            <div class="col-md-4 col-sm-12">
+                                <!-- IMAGEM 06  -->
+                                <div class="text-center img-01 scrool">
+                                    <div class="zoom">
+                                        <a href="imags/Figura06.png" data-bs-toggle="modal" data-bs-target="#Imagem06">
+                                            <img src="imgs/Figura06.png" alt="Coliseu de Roma">
+                                        </a>
                                     </div>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 06 -
+                                        </strong>Coliseu de Roma</p>
+                                </div>
 
-                                    <!-- Imagem 07 - MODAL (Audi)-->
-                                    <div class="modal fade text-center" id="Imagem07" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div
-                                            class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
-                                            <div class="modal-content w-75">
-                                                <img class="img-fluid" src="imgs/Figura06.png" alt="Muralha da China">
-                                            </div>
-                                            <div class="modal-footer w-75 bg-light justify-content-center">
-                                                <p class="text-secondary"><strong>Fonte:</strong> Pixabay</p>
-                                            </div>
+                                <!-- Imagem 06 - MODAL (Audi)-->
+                                <div class="modal fade text-center" id="Imagem06" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs/Figura06.png" alt="Coliseu de Roma">
+                                        </div>
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Fonte:</strong> Pixabay</p>
                                         </div>
                                     </div>
-                                    <!-- Imagem 07 - End  (Audi)-->
                                 </div>
                             </div>
+                            <!-- Imagem 06 - End  (Audi)-->
+                            <div class="col-md-4 col-sm-12">
+                                <!-- IMAGEM 07  -->
+                                <div class="text-center img-01 scrool">
+                                    <div class="zoom w-100">
+                                        <a href="imags/Figura07.png" data-bs-toggle="modal" data-bs-target="#Imagem07">
+                                            <img src="imgs/Figura07.png" alt="Muralha da China">
+                                        </a>
+                                    </div>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 07 -
+                                        </strong>Muralha da China</p>
+                                </div>
+
+                                <!-- Imagem 07 - MODAL (Audi)-->
+                                <div class="modal fade text-center" id="Imagem07" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs/Figura06.png" alt="Muralha da China">
+                                        </div>
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Fonte:</strong> Pixabay</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Imagem 07 - End  (Audi)-->
+                            </div>
+                        </div>
 
                         <p class="scrool">Provavelmente, essas obras e investimentos foram realizados sob a forma de
                             projetos, por
@@ -1200,7 +1193,8 @@ include('layout/header.php');
 
                         </div>
                         <br>
-                        <p class="scrool">A imagem 09 mostra a forma como os processos interagem entre si e aponta o nível de
+                        <p class="scrool">A imagem 09 mostra a forma como os processos interagem entre si e aponta o
+                            nível de
                             sobreposição em várias situações. Caso o processo esteja dividido em fases, os grupos de
                             processos se inter-relacionam dentro de cada fase (PMBOK, 2015).</p>
                         <br>
@@ -1269,10 +1263,12 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
                         <br>
-                        <p class="scrool">A elaboração de projetos delimita o escopo das atividades a serem executadas pelos
+                        <p class="scrool">A elaboração de projetos delimita o escopo das atividades a serem executadas
+                            pelos
                             prestadores de serviços ou fornecedores.</p>
 
-                        <p class="scrool">Os instrumentos gráficos de gestão, como o cronograma e o orçamento são essenciais ao
+                        <p class="scrool">Os instrumentos gráficos de gestão, como o cronograma e o orçamento são
+                            essenciais ao
                             projeto, pois conseguimos visualizar de uma forma clara e mais eficiente se tivermos esses
                             dados em planilhas, conforme ilustra a imagem 10.
                         </p>

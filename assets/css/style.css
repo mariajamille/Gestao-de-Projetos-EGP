@@ -5,6 +5,7 @@
 A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
 
 /* estilo do menu lateral (feito pelo audi) */
+
 :root {
     --CormenuLateral: #EFF7F0;
     --CorPreto: black;
@@ -66,7 +67,7 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     color: #44833D;
 }
 
-[data-theme="dark"] hr{
+[data-theme="dark"] hr {
     color: white;
 }
 
@@ -78,21 +79,9 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     color: #f18519;
 }
 
-.accordion-header strong{
-    font-size: 1.1rem;
-}
-
 /* COLORS END */
 
-a {
-    text-decoration: none;
-    color: #4a71f1;
-}
-
-strong {
-    font-weight: lighter;
-}
-
+/* ---------- CONFIGURAÇÕES GERAIS E DO BODY ---------*/
 * {
     margin: 0;
     padding: 0;
@@ -120,6 +109,9 @@ body::-webkit-scrollbar-thumb {
     border-radius: 10px;
 }
 
+/* ---------- CONFIGURAÇÕES GERAIS E DO BODY END ---------*/
+
+
 /* aqui eu defini algumas propriedades que "ajudam" a nav a ficar animada --jayron-- */
 #navmenu {
     position: fixed;
@@ -131,6 +123,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* fim da nav animada */
+
 
 /* INÍCIO DAS CONFIGURAÇÕES DO MENU LATERAL */
 /* img logo da egp */
@@ -150,17 +143,10 @@ body::-webkit-scrollbar-thumb {
 
 /* fim do estilo da img */
 
-.menulateral {
-    width: 80px;
-    height: 100%;
-    background-color: #EFF7F0;
-    padding: 40px 0px 40px 1%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow: hidden;
-    transition: 0.3s;
-    z-index: 999;
+.list li {
+    font-family: var(--FonteRaleway);
+    font-size: 1.2rem;
+    margin-top: 5px;
 }
 
 ul {
@@ -186,15 +172,22 @@ ol li {
     color: white;
 }
 
-.list li {
-    font-family: var(--FonteRaleway);
-    font-size: 1.2rem;
-    margin-top: 5px;
-}
-
-
 [data-theme="dark"] ul li.menu a {
     color: var(--color-light-50);
+}
+
+/* ------------ CONFIGURAÇÃO DO MENU LATERAL --------- */
+.menulateral {
+    width: 80px;
+    height: 100%;
+    background-color: #EFF7F0;
+    padding: 40px 0px 40px 1%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    transition: 0.3s;
+    z-index: 999;
 }
 
 ul li.menu a {
@@ -226,18 +219,6 @@ ul li.menu a .txt {
     /* border: 1px solid red; */
 }
 
-@media screen {
-    @media(max-width: 400px) {
-        ul li.menu a .txt {
-            margin-left: 0.5rem;
-        }
-
-        ul li.menu a .txt {
-            margin-left: 0.5rem;
-        }
-    }
-}
-
 ul li.menu a {
     padding-left: 20px;
 }
@@ -256,10 +237,6 @@ ul li.menu a:hover {
     background-color: #3be3e2;
 }
 
-/* (transition) no CONTEÚDO PRINCIPAL  */
-.all-conteudo {
-    display: flex;
-}
 
 .menulateral:hover~.all-conteudo {
     margin-left: 100px;
@@ -284,6 +261,45 @@ ul li.menu a:hover {
     border-radius: 10px;
 }
 
+
+[data-theme="dark"] ul li.menu a:hover {
+    color: rgb(0, 0, 0);
+}
+
+ul li.menu a.ativo {
+    border-right: 5px solid #44833D;
+}
+
+[data-theme="dark"] ul li.menu a.ativo {
+    border-right: 6px solid #1ab6b6;
+}
+
+[data-theme="dark"] .dropdown-toggle {
+    color: white;
+}
+
+[data-theme="dark"] .dropdown-toggle:hover {
+    color: rgb(192, 185, 185);
+}
+
+/* Responsividade do menu lateral */
+@media screen {
+    @media(max-width: 400px) {
+        ul li.menu a .txt {
+            margin-left: 0.5rem;
+        }
+
+        ul li.menu a .txt {
+            margin-left: 0.5rem;
+        }
+    }
+}
+
+/* Responsividade do menu lateral end */
+
+/* ------------ CONFIGURAÇÃO DO MENU LATERAL END --------- */
+
+
 /* ESTILO DO MENU RESPONSIVO */
 
 .offcanvas {
@@ -297,7 +313,7 @@ ul li.menu a:hover {
 
 .offcanvas-header a>img {
     position: relative;
-    left: 1em;
+    left: 2em;
 }
 
 /* ESTILO BOTÃO FECHAR */
@@ -333,6 +349,9 @@ ul li.menu a:hover {
     border-radius: 10px;
 }
 
+/* ESTILO DO MENU RESPONSIVO END */
+
+/* -------- CONFIGURAÇÃO DOS SUBTÓPICOS ----------- */
 .dropdown-btn {
     text-decoration: none;
     color: #44833D;
@@ -380,8 +399,11 @@ ul li.menu a:hover {
 
 [data-theme="dark"] .dropdown-container a:hover {
     background-color: #3be3e2;
-    color: black;
+    color: #040504;
 }
+
+/* -------- CONFIGURAÇÃO DOS SUBTÓPICOS END ----------- */
+
 
 .circulo {
     margin-right: 2em;
@@ -394,28 +416,6 @@ ul li.menu a:hover {
     align-items: center;
     justify-content: flex-end;
 }
-
-[data-theme="dark"] ul li.menu a:hover {
-    color: rgb(0, 0, 0);
-}
-
-ul li.menu a.ativo {
-    border-right: 5px solid #44833D;
-}
-
-[data-theme="dark"] ul li.menu a.ativo {
-    border-right: 6px solid #1ab6b6;
-}
-
-[data-theme="dark"] .dropdown-toggle {
-    color: white;
-}
-
-[data-theme="dark"] .dropdown-toggle:hover {
-    color: rgb(192, 185, 185);
-}
-
-/* FIM DAS CONFIGURAÇÕES DO MENU LATERAL */
 
 
 /* estilos gerais */
@@ -500,6 +500,10 @@ hr {
 }
 
 /* INÍCIO DO ESTILO DO ACCORDION */
+.accordion-header strong {
+    font-size: 1.1rem;
+}
+
 .container {
     min-height: 20vh;
     position: relative;
@@ -827,7 +831,6 @@ o estado inicial de height 0 manteria o texto aparecendo */
 
     ul li.menu a .txt {
         margin-left: 1.5rem;
-
     }
 }
 
@@ -838,44 +841,35 @@ o estado inicial de height 0 manteria o texto aparecendo */
 .table {
     font-weight: lighter;
     font-size: 1.2rem;
-    font-family: "Raleway";
 }
 
-.table th {
-    font-family: "Raleway";
-    text-align: center;
-    vertical-align: middle;
-}
+/* estilo da tabela end*/
 
-.table td {
-    vertical-align: middle
+/* ---------------- ORGANIZAÇÃO DO TEXTO ------------ */
+a {
+    text-decoration: none;
+    color: #4a71f1;
 }
-
-[data-theme="dark"] .table td {
-    background-color: #29292B;
-    color: white;
-}
-
-.bd {
-    border: 1px solid #cccccc9a;
-    border-left: 5px solid #f18519;
-    border-radius: 7px;
-    padding: 1.5rem;
-}
-
-/* estilo da pagina do primeiro modulo */
-.bd-callout {
-    border: 1px solid #cccccc9a;
-    border-left: 5px solid #44833D;
-    border-radius: 7px;
-    padding: 1.5rem;
-}
-
 
 .text-center .text {
     color: #b0b0b1;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+strong {
+    font-weight: lighter;
+}
+
+.Texto {
+    cursor: default;
+}
+
+.Texto:hover {
+    margin-left: 10px;
+}
+
+/* ---------------- ORGANIZAÇÃO DO TEXTO END ------------ */
+
 
 /* ---------------------- início do menu lateral responsivo --jayron-- ------------------------- */
 @media (min-width: 735px) {
@@ -889,6 +883,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
 }
 
 @media (max-width: 735px) {
+
     .menulateral {
         display: none;
         color: rgb(39, 79, 35);
@@ -903,7 +898,7 @@ o estado inicial de height 0 manteria o texto aparecendo */
     }
 
     #img_logo {
-        width: 180px;
+        width: 150px;
     }
 }
 
@@ -1047,8 +1042,9 @@ h2,
 /* BOTÃO CLOSE MENU RESPONSIVO (Audi)*/
 [data-theme="dark"] .btn-close {
     filter: invert(1) grayscale(100%) brightness(200%);
-
 }
+
+/* BOTÃO CLOSE MENU RESPONSIVO (Audi)*/
 
 /*FIM DA CONFIGURAÇÃO DO MODO ESCURO*/
 
@@ -1062,7 +1058,6 @@ h2,
 }
 
 .zoom img {
-    z-index: 2;
     max-width: 100%;
     transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -1077,7 +1072,10 @@ h2,
     -webkit-transform: scale(1.2);
 }
 
-/* INÍCIO DO BUTTON BACK TO TOP (JAMILLE) */
+/* EFEITO DE ZOOM NA IMAGEM ADAPTADO (AUDI) END */
+
+
+/* INÍCIO DO BUTTON BACK TO TOP */
 #back_to_top {
     position: fixed;
     z-index: 2;
@@ -1110,26 +1108,34 @@ h2,
     place-items: center;
 }
 
-/* FIM DO BUTTON BACK TO TOP (JAMILLE) */
+/* FIM DO BUTTON BACK TO TOP */
 
-.Texto {
-    cursor: default;
+
+/* ---------------- CAIXA DE TEXTO (OBJETIVOS) ------------ */
+.bd {
+    border: 1px solid #cccccc9a;
+    border-left: 5px solid #f18519;
+    border-radius: 7px;
+    padding: 1.5rem;
 }
 
-.Texto:hover {
-    margin-left: 10px;
+/* estilo da pagina do primeiro modulo */
+.bd-callout {
+    border: 1px solid #cccccc9a;
+    border-left: 5px solid #44833D;
+    border-radius: 7px;
+    padding: 1.5rem;
 }
 
-/* BARRA DE PROGRESSO  */
-#progress-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 10px;
-    background: linear-gradient(#03cc65 0%, #03cc65 100%);
-    transition: width 0.5s ease-out;
-    z-index: 5;
+.bd-callout {
+    border: 1px solid #cccccc9a;
+    border-left: 5px solid #44833D;
+    border-radius: 7px;
+    padding: 1.5rem;
 }
+
+/* ---------------- CAIXA DE TEXTO (OBJETIVOS) ------------ */
+
 
 /* FOOTER */
 footer {
