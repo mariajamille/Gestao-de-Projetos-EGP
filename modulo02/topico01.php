@@ -164,10 +164,12 @@ include('layout/header.php');
                                 <div class="text-center img-01">
                                     <div class="zoom">
                                         <a href="imgs/Figura01.png" data-bs-toggle="modal" data-bs-target="#Imagem1">
-                                            <img src="imgs/Figura01.png" alt="Imagem que remete a organização" id="img-1">
+                                            <img src="imgs/Figura01.png" alt="Imagem que remete a organização"
+                                                id="img-1">
                                         </a>
                                     </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 01:</strong> Negociar
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 01:</strong>
+                                        Negociar
                                     </p>
                                 </div>
 
@@ -177,10 +179,14 @@ include('layout/header.php');
                                     <div
                                         class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
                                         <div class="modal-content w-75">
-                                            <img class="img-fluid" src="imgs/Figura01.png" alt="Alt da imagem fica aqui">
+                                            <img class="img-fluid" src="imgs/Figura01.png"
+                                                alt="Alt da imagem fica aqui">
                                         </div>
                                         <div class="modal-footer w-75 bg-light justify-content-center">
-                                            <p class="text-secondary"><strong>Fonte:</strong><a href="https://room4d.wordpress.com/2015/09/20/voce-realmente-conhece-a-arte-de-negociar/" target="_blank">https://room4d.wordpress.com/2015/09/20/voce-realmente-conhece-a-arte-de-negociar/</a></p>
+                                            <p class="text-secondary"><strong>Fonte:</strong><a
+                                                    href="https://room4d.wordpress.com/2015/09/20/voce-realmente-conhece-a-arte-de-negociar/"
+                                                    target="_blank">https://room4d.wordpress.com/2015/09/20/voce-realmente-conhece-a-arte-de-negociar/</a>
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -189,35 +195,40 @@ include('layout/header.php');
                                 <!-- FIM DA IMAGEM NO SITE  -->
                             </div>
                             <div class="col-md-6 col-sm-12">
-                                <div class="text-center">
-                                    <a href="imagens/figura02.png" data-bs-toggle="modal" data-bs-target="#Imagem02">
-                                        <img class="img-fluid wow fadeInRight" src="imagens/figura02.png"
-                                            alt="Alt da imagem fica aqui">
-                                    </a>
-                                    <p class="FonteFigura wow fadeInRight"> <strong>Figura 02:</strong> Time de negócios
-                                    </p>
+                                <!-- IMAGEM NO SITE  -->
 
+                                <div class="text-center img-01">
+                                    <div class="zoom">
+                                        <a href="imgs/Figura02.png" data-bs-toggle="modal" data-bs-target="#Imagem2">
+                                            <img src="imgs/Figura02.png" alt="Imagem que remete a organização"
+                                                id="img-1">
+                                        </a>
+                                    </div>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 01:</strong>
+                                        Negociar
+                                    </p>
                                 </div>
 
-                                <!-- Imagem 01 - MODAL -->
-                                <div class="modal fade text-center" id="Imagem02" tabindex="-1"
+                                <!-- Imagem - MODAL-->
+                                <div class="modal fade text-center" id="Imagem2" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                    <div class="modal-dialog modal-dialog-centered modal-lg">
-                                        <div class="modal-content">
-                                            <div class="modal-body">
-                                                <img class="img-fluid" src="imagens/figura02.png"
-                                                    alt="Alt da imagem fica aqui">
-                                            </div>
-                                            <div class="modal-footer text-center">
-                                                <p class="TituloFigura"><strong>Fonte:</strong> <a
-                                                        href="https://pxhere.com" target="_blank">https://pxhere.com</a>
-                                                </p>
-                                            </div>
+                                    <div
+                                        class="modal-dialog modal-dialog-centered modal-lg d-flex justify-content-center flex-column">
+                                        <div class="modal-content w-75">
+                                            <img class="img-fluid" src="imgs/Figura02.png"
+                                                alt="Alt da imagem fica aqui">
                                         </div>
-
+                                        <div class="modal-footer w-75 bg-light justify-content-center">
+                                            <p class="text-secondary"><strong>Fonte:</strong><a
+                                                    href="https://room4d.wordpress.com/2015/09/20/voce-realmente-conhece-a-arte-de-negociar/"
+                                                    target="_blank">https://room4d.wordpress.com/2015/09/20/voce-realmente-conhece-a-arte-de-negociar/</a>
+                                            </p>
+                                        </div>
                                     </div>
                                 </div>
-                                <!-- Figura 01 - End -->
+                                <!-- Imagem - End-->
+
+                                <!-- FIM DA IMAGEM NO SITE  -->
                             </div>
                         </div>
 
