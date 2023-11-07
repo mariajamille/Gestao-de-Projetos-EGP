@@ -19,12 +19,12 @@ include('layout/header.php');
 
     <!-- CONTEUDO INICIO -->
     <div class="all-conteudo">
-        <section class="conteiner-principal">
-            <div class="main-content container-fluid">
-                <div class="row">
-                    <!-- Begin row -->
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10 col-sm-8 container-fluid">
+    <section class="conteiner-principal">
+      <div class="main-content container-fluid">
+        <div class="row">
+          <!-- Begin row -->
+          <div class="col-md-1"></div>
+          <div class="col-md-10 col-sm-8 container-fluid">
 
                         <!--  Título Pricipal -->
                         <h2 class="Titulo fw-bolder scrool"> 04 -
@@ -219,9 +219,11 @@ include('layout/header.php');
                         <!-- FIM DA CAIXA REFLITA-->
 
                         <br>
-                        <p class="scrool">Kerzner (2006) preocupou-se em definir o sucesso como a concretização do prazo programado,
+                        <p class="scrool">Kerzner (2006) preocupou-se em definir o sucesso como a concretização do prazo
+                            programado,
                             dentro do orçamento e com nível de qualidade desejado.</p>
-                        <p class="scrool">Porém, além dessas características, é necessário que os cidadãos deem legitimidade ao
+                        <p class="scrool">Porém, além dessas características, é necessário que os cidadãos deem
+                            legitimidade ao
                             projeto, observando, assim, fatores primários e fatores secundários.</p>
                         <br>
                         <!--Alerta -->
@@ -822,13 +824,11 @@ include('layout/header.php');
 
                         <!-- FIM Accordion Fase 01 - Begin  -->
 
-
+                    </div>
                     </div>
                 </div>
-            </div>
         </section>
     </div>
-
     <!-- FIM DO CONTEUDO INICIO  -->
 
 

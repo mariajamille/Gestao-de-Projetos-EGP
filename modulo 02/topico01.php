@@ -106,8 +106,7 @@ include('layout/header.php');
                             <p class="text-end">(PORTER, 2005, p.156) –</p>
                             </p>
                         </div>
-                        <p class="scrool">Assim para uma estratégia corporativa algumas palavras/conceitos precisam ser
-                            alinhados, tais
+                        <p>Assim para uma estratégia corporativa algumas palavras/conceitos precisam ser alinhados, tais
                             como:</p>
                         <!-- LISTA EM MOVIMENTO-->
                         <div>
@@ -131,7 +130,7 @@ include('layout/header.php');
 
                         <!-- CAIXA DE TEXTO FIQUE-ATENTO -->
                         <section class="container scrool">
-                            <div class="accordion">
+                            <div class="accordion ">
                                 <section id="content">
                                     <div class="caixaprincipal" id="titulofiqueatento">
                                         <div class="div_teste">
@@ -152,7 +151,6 @@ include('layout/header.php');
                                             aderência às novas condições do ambiente organizacional e orgânico.</p>
                                     </div>
                                 </section>
-                            </div>
                         </section>
                         <!-- FIM DA CAIXA FIQUE ATENTO -->
 
@@ -437,50 +435,45 @@ include('layout/header.php');
                         <!-- Imagem 02 - End  (Audi)-->
 
                         <br>
-                        <p class="scrool">Observamos na Figura 02 que o último estágio para a implementação de
-                            resultados é a
+                        <p class="scrool">Observamos na Figura 02 que o último estágio para a implementação de resultados é a
                             implementação do portfólio de projetos.
                         </p>
-                        <p class="scrool">Os projetos impactam diretamente nos níveis tático e operacional. Podem ser
-                            compreendidos
+                        <p class="scrool">Os projetos impactam diretamente nos níveis tático e operacional. Podem ser compreendidos
                             como derivações dos objetivos estratégicos que fornecem à organização a direção, o
                             propósito, o horizonte de tempo e designam os responsáveis pelo desenvolvimento de cada
                             vetor.
                         </p>
-                        <p class="scrool">De certa forma, o desejado seria que, para cada vetor estratégico, fossem
-                            elaborados vários
+                        <p class="scrool">De certa forma, o desejado seria que, para cada vetor estratégico, fossem elaborados vários
                             projetos, que poderiam vir a formar programas a serem dispostos dentro do portfólio
                             corporativo de projetos da organização, cujo foco principal deve ser sempre o resultado,
                             seja financeiro, ambiental ou social.
                         </p>
 
-
                     </div>
                 </div>
-            </div>
         </section>
     </div>
-    <!-- Botões de navegação -->
-    <div class="text-center">
-        <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
-                class="fa-solid fa-chevron-left"></i> Voltar </a>
-        <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
-                class="fa-solid fa-chevron-right"></i></a>
-    </div>
-
-    <!-- BUTTON BACK TO TOP -->
-    <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
-    <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
-    <div id="back_to_top">
-        <div id="btn_back">
-            <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+        <!-- Botões de navegação -->
+        <div class="text-center">
+            <a href="index.php" class="btn btn-outline-success" role="button" aria-pressed="true"> <i
+                    class="fa-solid fa-chevron-left"></i> Voltar </a>
+            <a href="topico02.php" class="btn btn-outline-success" role="button" aria-pressed="true">Próximo <i
+                    class="fa-solid fa-chevron-right"></i></a>
         </div>
-    </div>
-    <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
 
-    <?php
-    include('layout/footer.php');
-    ?>
+        <!-- BUTTON BACK TO TOP -->
+        <!-- INÍCIO DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP -->
+        <!-- BOTÃO BACK TO TOP COM UMA BARRA DE PROGRESSO -->
+        <div id="back_to_top">
+            <div id="btn_back">
+                <i id="icon_up" class="fa-solid fa-arrow-up"></i>
+            </div>
+        </div>
+        <!-- FIM DAS CONFIGURAÇÕES DO BOTÃO BACK TO TOP-->
+
+        <?php
+        include('layout/footer.php');
+        ?>
 
 
 </body>
