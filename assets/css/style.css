@@ -212,7 +212,7 @@ ul li.menu a {
 }
 
 ul li.menu a .txt {
-    margin-left: 2.5rem;
+    margin-left: 1.6rem;
     display: flex;
     text-align: left;
     width: 100%;
@@ -230,7 +230,11 @@ ul li.menu a .icon>i {
 ul li.menu a:hover {
     color: #ffff;
     background-color: #1a9c60;
+}
 
+ol,
+ul {
+    padding-left: 0;
 }
 
 [data-theme="dark"] ul li.menu a:hover {
@@ -552,6 +556,21 @@ hr {
 
 /* CORES DOS DIFERENTES DOS ACCORDIONS */
 
+/* CAIXA DÚVIDA */
+.accordion #content .caixaprincipal#tituloDuvida {
+    background-color: #008080;
+    color: #feffffe0;
+}
+
+#duvida {
+    background-color: #bee2e2;
+}
+
+#duvida p{
+    color: #040504;
+}
+
+/* CAIXA DÚVIDA */
 
 /* CAIXA IMPORTANTE */
 .accordion #content .caixaprincipal#tituloimportante {

@@ -36,25 +36,30 @@ include('layout/header.php');
                                 <img class="img-fluid" src="imgs/banner.jpg" alt="Alt da imagem fica aqui">
                             </a>
                             <p class="FonteFigura"></p>
-                        </div>
+                        </div><br>
 
                         <p>Prezado (a) cursista,
                         </p>
-                        <p>Nesta aula, a ideia é entendermos que o planejamento estratégico de uma organização e, em
-                            especial, no serviço público é melhor efetivado por intermédio do gerenciamento de projetos.
-                            Para tanto, serão apresentadas noções de planejamento estratégico e de gerenciamento de
-                            projetos.</p><br>
+                        <p>Esta aula tem como objetivo apresentar a compreensão sobre as metodologias em gerenciamento
+                            de projetos e como podem ser desenvolvidas propostas para construção de uma cultura de
+                            gerenciamento de projetos no ambiente de trabalho.</p><br>
                         <!-- Título -->
                         <h2 class="Titulo">Objetivo</h2><br>
-                        <p><i class="fa fa-bullseye"></i> Apresentar noções básicas de planejamento
-                            estratégico e de gerenciamento de projetos, de modo a instrumentalizar os participantes para
-                            o reconhecimento da importância desses aspectos, tendo em vista as mudanças nas
-                            organizações.</p>
+                        <p><i class="fa fa-bullseye"></i> Discorrer sobre o significado e a importância da metodologia
+                            em gerenciamento de projetos.</p>
+                        <p><i class="fa fa-bullseye"></i> Apresentar orientações de como a metodologia é vista no PMBOK.
+                        </p>
+                        <p><i class="fa fa-bullseye"></i> Apresentar passos de como construir uma proposta metodológica
+                            de gerenciamento de projetos no ambiente de trabalho.
+                        </p>
+                        <p><i class="fa fa-bullseye"></i> Discutir a avaliação de programas e projetos, o monitoramento
+                            e o controle.
+                        </p>
                         <br><br>
 
                         <!-- SCRIPT INTERAÇAO COM ALUNO-->
                         <ul class="none ">
-                            <li class="img-fluid wow fadeInLeft" data-wow-delay="0.3s"><i></i>
+                            <li><i></i>
                                 <h4>
                                     Olá! Nome_Completo, Bem-vindo(a) ao módulo 01 do curso Gestão de
                                     Projetos! Esperamos que o conteúdo proposto contribua para aprimorar o seu
