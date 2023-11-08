@@ -67,6 +67,22 @@ A FUNÇÃO [data-theme="dark"] ALTERA O CONTEÚDO PARA O MODO ESCURO. */
     color: #44833D;
 }
 
+[data-theme="dark"] .CorLaranja {
+    color: #6022AF;
+}
+
+.CorLaranja {
+    color: #f18519;
+}
+
+.CorAzul {
+    color: #3be3e2;
+}
+
+[data-theme="dark"] .CorAzul {
+    color: var(--VerdeEscuroReflita);
+}
+
 [data-theme="dark"] hr {
     color: white;
 }
@@ -566,7 +582,7 @@ hr {
     background-color: #bee2e2;
 }
 
-#duvida p{
+#duvida p {
     color: #040504;
 }
 
@@ -860,6 +876,16 @@ o estado inicial de height 0 manteria o texto aparecendo */
 .table {
     font-weight: lighter;
     font-size: 1.2rem;
+    font-family: "Raleway";
+}
+
+.table th {
+    font-family: "Raleway";
+}
+
+[data-theme="dark"] .table td {
+    background-color: #29292B;
+    color: white;
 }
 
 /* estilo da tabela end*/
@@ -892,6 +918,9 @@ strong {
 
 /* ---------------------- início do menu lateral responsivo --jayron-- ------------------------- */
 @media (min-width: 735px) {
+    #img-Porcao {
+        margin-top: -1rem;
+    }
 
     .offcanvas.hiding,
     .offcanvas.show,
@@ -1130,7 +1159,7 @@ h2,
 /* FIM DO BUTTON BACK TO TOP */
 
 
-/* ---------------- CAIXA DE TEXTO (OBJETIVOS) ------------ */
+/* ---------------- CAIXA DE TEXTO  ------------ */
 .bd {
     border: 1px solid #cccccc9a;
     border-left: 5px solid #f18519;
@@ -1153,7 +1182,14 @@ h2,
     padding: 1.5rem;
 }
 
-/* ---------------- CAIXA DE TEXTO (OBJETIVOS) ------------ */
+.bd-danger {
+    border: 1px solid #cccccc9a;
+    border-left: 5px solid #D9534F;
+    border-radius: 7px;
+    padding: 1.5rem;
+}
+
+/* ---------------- CAIXA DE TEXTO ------------ */
 
 
 /* FOOTER */

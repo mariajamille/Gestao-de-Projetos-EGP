@@ -1,8 +1,4 @@
 /* ------ ÍCONES ------- */
-.fa-bullseye {
-  color: #44833D;
-}
-
 #responsividade {
   display: flex;
   justify-content: space-around;
@@ -10,10 +6,6 @@
 
 #teste {
   height: 14.5rem;
-}
-
-[data-theme="dark"] .fa-bullseye {
-  color: white;
 }
 
 .bi-caret-down-fill {
@@ -48,6 +40,10 @@
   font-size: 1.2rem;
   margin-top: 5px;
   list-style: none;
+}
+
+.CorVerde{
+  color: #44833D;
 }
 
 /* ---------LISTAS NÃO ORDENADAS END ------------- */
@@ -199,7 +195,6 @@ p.paragrafo {
 }
 
 /*------------------- FIM DA CONFIGURÇÃO DA TABELA (TÓPICO 2) ------------------ */
-
 
 .txt-caixasecundaria {
   font-family: "Raleway";
