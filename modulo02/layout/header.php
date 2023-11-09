@@ -28,7 +28,7 @@
 
     <!-- nosso css -->
     <link rel="stylesheet" href="../assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/modulo01.css">
+    <link rel="stylesheet" href="assets/css/modulo02.css">
 
     <!-- link do script -->
     <script src="../assets/js/script.js" defer></script>

@@ -125,6 +125,30 @@ p.paragrafo {
   box-shadow: 1px 2px 9px rgba(253, 211, 71, 0.3);
 }
 
+.alert-dark {
+  color: white;
+  background-color: #141619;
+}
+
+[data-theme="dark"] .alert-secondary p{
+  color: #383d41;
+}
+
+.alert-secondary {
+  background-color: #ebeef3;
+  color: #383d41;
+  box-shadow: 1px 2px 9px rgba(235, 238, 243, 0.3);
+}
+
+.card .card-body {
+  padding: 1.4rem 1.7rem;
+}
+
+/* .card-body {
+  flex: 1 1 auto;
+  padding: 1rem 1rem;
+  height: 35rem;
+} */
 /*-----------------ALERTS END----------------------------*/
 
 
@@ -190,9 +214,9 @@ p.paragrafo {
 /* ------------------CONFIGURÇÃO DA TABELA (TÓPICO 2)--------------------------- */
 
 
-[data-theme="dark"] .card-body {
+/* [data-theme="dark"] .card-body {
   background-color: #29292B;
-}
+} */
 
 /*------------------- FIM DA CONFIGURÇÃO DA TABELA (TÓPICO 2) ------------------ */
 
