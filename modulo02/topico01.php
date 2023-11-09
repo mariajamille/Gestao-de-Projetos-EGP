@@ -202,7 +202,7 @@ include('layout/header.php');
                                             <img src="imgs/Figura02.png" alt="Imagem que remete a organização">
                                         </a>
                                     </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 01:</strong>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 02:</strong>
                                         Time de negócios
                                     </p>
                                 </div>
@@ -244,7 +244,7 @@ include('layout/header.php');
                                     <img src="imgs/Figura03.png" alt=" Dinâmica Estruturada">
                                 </a>
                             </div>
-                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 03 - </strong> Aspectos
+                            <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 03: </strong> Aspectos
                                 considerados na Metodologia de Gerenciamento de Projetos</p>
                         </div>
 
@@ -258,7 +258,7 @@ include('layout/header.php');
                                         alt="Planejamento x Projetos x Operação">
                                 </div>
                                 <div class="modal-footer w-75 bg-light justify-content-center">
-                                    <p class="text-secondary"><strong>Fonte - </strong> Estudo de Benchmarking em
+                                    <p class="text-secondary"><strong>Fonte: </strong> Estudo de Benchmarking em
                                         Gerenciamento de Projetos 2013</p>
                                 </div>
                             </div>
@@ -301,7 +301,7 @@ include('layout/header.php');
                                             <img src="imgs/Figura04.png" alt="Poção mágica" class="w-75">
                                         </a>
                                     </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 03 - </strong>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 04: </strong>
                                         Poção mágica</p>
                                 </div>
 
@@ -314,7 +314,7 @@ include('layout/header.php');
                                             <img class="img-fluid" src="imgs/Figura04.png" alt="Poção mágica">
                                         </div>
                                         <div class="modal-footer w-25 bg-light justify-content-center">
-                                            <p class="text-secondary"><strong>Fonte - </strong> Pixabay</p>
+                                            <p class="text-secondary"><strong>Fonte: </strong> Pixabay</p>
                                         </div>
                                     </div>
                                 </div>
@@ -421,7 +421,7 @@ include('layout/header.php');
                                                 id="img-1">
                                         </a>
                                     </div>
-                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 01:</strong>
+                                    <p class="FonteFigura FonteMenor text-secondary"><strong>Figura 05:</strong>
                                         Reunião de Projetos 01
                                     </p>
                                 </div>
@@ -436,7 +436,7 @@ include('layout/header.php');
                                                 alt="Planejamento x Projetos x Operação">
                                         </div>
                                         <div class="modal-footer w-75 bg-light justify-content-center">
-                                            <p class="text-secondary"><strong>Fonte - </strong> Pixabay</p>
+                                            <p class="text-secondary"><strong>Fonte: </strong> Pixabay</p>
                                         </div>
                                     </div>
                                 </div>

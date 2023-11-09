@@ -42,7 +42,7 @@
   list-style: none;
 }
 
-.CorVerde{
+.CorVerde {
   color: #44833D;
 }
 
@@ -69,6 +69,14 @@ p.paragrafo {
 .alert {
   border: none;
   font-family: "Raleway";
+  position: relative;
+  padding: 1rem 1rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+#text-alert-verde{
+margin-top: 10px;
 }
 
 .alert-success {
@@ -130,7 +138,7 @@ p.paragrafo {
   background-color: #141619;
 }
 
-[data-theme="dark"] .alert-secondary p{
+[data-theme="dark"] .alert-secondary p {
   color: #383d41;
 }
 
